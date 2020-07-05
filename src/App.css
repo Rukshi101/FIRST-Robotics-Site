@@ -94,6 +94,12 @@ html{
 
 
 }
+
+.inevent{
+  color:white;
+  padding-top:3.5rem;
+  text-align:center;
+}
 .Commitment h1{
 
   margin:0;
@@ -1810,6 +1816,12 @@ color:white;
 .resourceTitle{
   padding-top:100px;
   color:black;
+  font-size:36px!important;
+}
+
+.ResourceTitle{
+  color:white;
+  font-size:36px;
 }
 .Registration{
   width:100%;
@@ -1829,11 +1841,14 @@ color:white;
   margin-top:0px;
   font-size:35px;
 }
-
+.ResourceTitle h1{
+  font-size:36px;
+}
 .resourcestitle{
   font-family: 'Montserrat', sans-serif;
   font-size:8rem!important;
   font-weight:700;
+  padding-top:100px;
 }
 
 .sidenav{

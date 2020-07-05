@@ -15,20 +15,16 @@ class InEventContent extends React.Component{
                
                   
                       <div className = "smallcont">
-                    
-                <div className = "SignUpHeaders">
-              {name}
-              </div>
+              
               
 
               
                 {contentss.map(content =>(
         
                   
-                   <div>
-                    {content.text}
-                    </div>
-                  
+        <div  className = "SignUpHeaders">
+        <a href={content.text}>{name}</a>
+          </div>
                    
                    
                    

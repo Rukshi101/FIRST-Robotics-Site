@@ -69,8 +69,8 @@ state = {
       <div className = "resourceBackground">
       <SideBar/>
  
-    <div className="h-100 p-4">
-        <p className="h1">Welcome  Resources</p>
+    <div className="h-100 Commitment ResourceCards p-4">
+        <p className="inevent ResourceTitle">In-Event Resources</p>
         <p>
             <InEventTitle
              HeaderTitle = {this.state.fetchedInEventTitle}
