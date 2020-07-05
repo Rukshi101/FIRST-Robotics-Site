@@ -48,11 +48,11 @@ state = {
       
         const TitleRes = await axios({
           method:'GET',
-          url:'http://admin.firstroboticscanada.org/ept-itles'
+          url:'https://admin.firstroboticscanada.org/ept-itles'
         })
         const ContentRes = await axios({
           method:'GET',
-          url:'http://admin.firstroboticscanada.org/epl-inks'
+          url:'https://admin.firstroboticscanada.org/epl-inks'
         })
         
         const fetchedEPTitle = TitleRes.data
