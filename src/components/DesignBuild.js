@@ -48,11 +48,11 @@ state = {
       
         const TitleRes = await axios({
           method:'GET',
-          url:'http://admin.firstroboticscanada.org/design-titles'
+          url:'https://admin.firstroboticscanada.org/design-titles'
         })
         const ContentRes = await axios({
           method:'GET',
-          url:'http://admin.firstroboticscanada.org/design-links'
+          url:'https://admin.firstroboticscanada.org/design-links'
         })
         
         const fetchedDesignTitle = TitleRes.data

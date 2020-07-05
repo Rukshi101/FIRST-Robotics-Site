@@ -8,16 +8,8 @@ import ProjectImage from './ProjectImage'
 const fetchedProjectTitle = [
     {
       id:1,name:"DUMMY DATA"
-    },
-    {
-      id:2,name:"Build your Team"
-    },
-    {
-        id:3,name:"Register"
-      },
-      {
-        id:4,name:"Start Building"
-      }
+    }
+  
     
   ]
   const fetchedProjectImage = [
