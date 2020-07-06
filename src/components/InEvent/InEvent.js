@@ -48,7 +48,7 @@ state = {
       
         const TitleRes = await axios({
           method:'GET',
-          url:'https://admin.firstroboticscanada.org/in-events'
+          url:'https://admin.firstroboticscanada.org/in-event-titles'
         })
         const ContentRes = await axios({
           method:'GET',

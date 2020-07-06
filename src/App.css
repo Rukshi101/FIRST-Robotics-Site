@@ -104,11 +104,13 @@ html{
 
   margin:0;
   padding-bottom:30px;;
-  font-weight:600;
+  font-weight:700;
   text-align:center;
   width:100%;
   text-transform:none!important;
   font-family: 'Montserrat', sans-serif;
+  font-size:2.5rem;
+
 }
 @media (min-width:300px){
   .TitleDetail{
@@ -1352,7 +1354,7 @@ color:white;
   .Testimonial h1{
     font-size:30px;
     font-family:'Montserrat', sans-serif;
-  font-weight:700;
+  font-weight:700!important;
   
   
   }
@@ -1728,6 +1730,7 @@ color:white;
 }
 .SignUpHeaders{
   font-size:30px;
+  padding-top:70px;
 
 }
 /* div{}

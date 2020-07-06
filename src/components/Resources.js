@@ -71,7 +71,7 @@ state = {
     <div className="resourcespage p-4 shifted-content">
         <p className="h1 resourcestitle">Welcome to the FIRST Resource Bank!</p>
         <p className = "resourcesdescription">
-           Everything you need to become FIRST Robotics Experts.
+           Click the icon on the top left to get started.
         </p>
         <Footer/>
     </div>
