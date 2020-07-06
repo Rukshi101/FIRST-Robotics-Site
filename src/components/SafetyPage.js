@@ -51,11 +51,11 @@ state = {
       
         const TitleRes = await axios({
           method:'GET',
-          url:'http://localhost:1337/safetytitles'
+          url:'https://admin.firstroboticscanada.org/safetytitles'
         })
         const ContentRes = await axios({
           method:'GET',
-          url:'http://localhost:1337/safetycontents'
+          url:'https://admin.firstroboticscanada.org/safetycontents'
         })
         
         const fetchedSafetyTitle = TitleRes.data

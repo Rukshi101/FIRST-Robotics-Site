@@ -42,11 +42,11 @@ const fetchedProjectTitle = [
       
       const TitleRes = await axios({
         method:'GET',
-        url:'http://localhost:1337/projects'
+        url:'https://admin.firstroboticscanada.org/projects'
       })
       const ContentRes = await axios({
         method:'GET',
-        url:'http://localhost:1337/project-images'
+        url:'https://admin.firstroboticscanada.org/project-images'
       })
       
       const fetchedProjectTitle = TitleRes.data

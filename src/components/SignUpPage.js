@@ -59,11 +59,11 @@ const fetchedSignUpTitle = [
       
       const TitleRes = await axios({
         method:'GET',
-        url:'http://localhost:1337/sign-up-titles'
+        url:'https://admin.firstroboticscanada.org/sign-up-titles'
       })
       const ContentRes = await axios({
         method:'GET',
-        url:'http://localhost:1337/sign-up-contents'
+        url:'https://admin.firstroboticscanada.org/sign-up-contents'
       })
       
       const fetchedSignUpTitle = TitleRes.data

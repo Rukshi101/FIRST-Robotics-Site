@@ -48,11 +48,11 @@ state = {
       
         const TitleRes = await axios({
           method:'GET',
-          url:'http://localhost:1337/first-steps-titles'
+          url:'https://admin.firstroboticscanada.org/first-steps-titles'
         })
         const ContentRes = await axios({
           method:'GET',
-          url:'http://localhost:1337/first-steps-links'
+          url:'https://admin.firstroboticscanada.org/first-steps-links'
         })
         
         const fetchedStepTitle = TitleRes.data

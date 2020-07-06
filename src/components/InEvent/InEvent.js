@@ -48,11 +48,11 @@ state = {
       
         const TitleRes = await axios({
           method:'GET',
-          url:'http://localhost:1337/in-events'
+          url:'https://admin.firstroboticscanada.org/in-events'
         })
         const ContentRes = await axios({
           method:'GET',
-          url:'http://localhost:1337/in-event-contents'
+          url:'https://admin.firstroboticscanada.org/in-event-contents'
         })
         
         const fetchedInEventTitle = TitleRes.data

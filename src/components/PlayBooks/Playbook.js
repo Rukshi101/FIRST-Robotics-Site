@@ -49,11 +49,11 @@ state = {
       
         const TitleRes = await axios({
           method:'GET',
-          url:'http://localhost:1337/play-book-titles'
+          url:'https://admin.firstroboticscanada.org/play-book-titles'
         })
         const ContentRes = await axios({
           method:'GET',
-          url:'http://localhost:1337/play-book-contents'
+          url:'https://admin.firstroboticscanada.org/play-book-contents'
         })
         
         const fetchedPlayBookTitle = TitleRes.data

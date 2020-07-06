@@ -90,11 +90,11 @@ class Landing extends Component{
     
     const TitleRes = await axios({
       method:'GET',
-      url:'http://localhost:1337/commitment-titles'
+      url:'https://admin.firstroboticscanada.org/commitment-titles'
     })
     const ContentRes = await axios({
       method:'GET',
-      url:'http://localhost:1337/contents'
+      url:'https://admin.firstroboticscanada.org/contents'
     })
     
     const fetchedcommitment_titles = TitleRes.data

@@ -59,11 +59,11 @@ const fetchedContactName = [
       
       const TitleRes = await axios({
         method:'GET',
-        url:'http://localhost:1337/contact-names'
+        url:'https://admin.firstroboticscanada.org/contact-names'
       })
       const ContentRes = await axios({
         method:'GET',
-        url:'http://localhost:1337/contact-infos'
+        url:'https://admin.firstroboticscanada.org/contact-infos'
       })
       
       const fetchedContactName = TitleRes.data

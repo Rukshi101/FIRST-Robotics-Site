@@ -104,11 +104,11 @@ class Home extends Component{
   async componentDidMount(){
     const productRes = await axios({
       method:'GET',
-      url:'http://localhost:1337/products'
+      url:'https://admin.firstroboticscanada.org/products'
     })
     const eventRes = await axios({
       method:'GET',
-      url:'http://localhost:1337/events'
+      url:'https://admin.firstroboticscanada.org/events'
     })
     
     const fetchedProducts = productRes.data
@@ -119,11 +119,11 @@ class Home extends Component{
     
     const TitleRes = await axios({
       method:'GET',
-      url:'http://localhost:1337/commitment-titles'
+      url:'https://admin.firstroboticscanada.org/commitment-titles'
     })
     const ContentRes = await axios({
       method:'GET',
-      url:'http://localhost:1337/contents'
+      url:'https://admin.firstroboticscanada.org/contents'
     })
     
     const fetchedcommitment_titles = TitleRes.data
