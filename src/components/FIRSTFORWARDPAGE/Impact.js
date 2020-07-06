@@ -3,7 +3,7 @@ import React from 'react'
 function Impact(props){
     return(
         <div className = "ImpactBin">
-        <h1>IMPACT</h1>
+        <h1>Impact</h1>
         <p>Through our programs we have:</p>
         <div className = "Impactcontainer">
         

@@ -128,8 +128,9 @@ class Landing extends Component{
                 <section id= "about">
                 <AboutUs/>
                 </section>
-                <Commitment/>
                 <Impact/>
+                <Commitment/>
+             
                 <section id = "projects">
                 <Project/>
                 <ProjectLinkSection/>

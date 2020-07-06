@@ -4,9 +4,9 @@ import {Link} from 'react-router-dom'
 function ContactUs(props){
     return(
         <div className = "Contact">
-            <h1>Contact Us</h1>
+            <h1 className="contactTitle">Contact Us</h1>
             <p>Want to learn more about FIRST Forward programs in your area or just get in touch?</p>
-            <button className= "contactButton"><Link className = "Nav_Link" to = "contact">Get Started</Link></button>
+            <button className= "contactButton"><Link  to = "contact">Get Started</Link></button>
            
             </div>
    
