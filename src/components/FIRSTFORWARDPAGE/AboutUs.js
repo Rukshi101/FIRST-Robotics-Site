@@ -1,5 +1,7 @@
 import React from 'react'
 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 function AboutUs(props){
     return(
         <div className = "hubs forwardabout">
@@ -9,12 +11,22 @@ function AboutUs(props){
 
        <div class = "col-sm-7 hubtext " id='title'>
        <h1 className = " firstforwardtitle newhubtitle">About FIRST FORWARD CANADA</h1>
-           <p class = "tools"> FIRST Forward Canada is a collection of progressive initiatives that are preparing the next generation for the future. From digital literacy to equity, diversity and inclusion initiatives, FIRST Forward Canada is all about propelling kids and youth forward.
+       <div className = "hrposition">
+       <hr className = "forwardhr abouthr" width= "40%" height="2px"  color ="white"/>
+       </div>
+       <div className>
+           <p className = "tools aboutforwarddesc"> FIRST Forward Canada is a collection of progressive initiatives that are preparing the next generation for the future. From digital literacy to equity, diversity and inclusion initiatives, FIRST Forward Canada is all about propelling kids and youth forward.
 
 We must enable our youth to grow up to solve the world’s most pressing problems, be strong citizens, and build a brighter future together.
+
  </p>
-     
+ <p className = "aboutforwarddesc tools">
+     <a className = "learnfirst" href = "firstroboticscanada.org">Learn about FIRST Robotics <FontAwesomeIcon color = 'inherit ' icon = {['fa', 'arrow-right']}/></a>
+     </p>
+     </div>
        </div>
+
+       
        <div class="col-sm-5 teamBins">
          <img className = "aboutimage" src = {require("./aboutimage.jpeg")} alt=""/>
        </div>

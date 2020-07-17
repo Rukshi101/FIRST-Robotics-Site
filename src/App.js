@@ -37,6 +37,10 @@ import {
   faPeopleCarry,
   faHandshake,
   faPeopleArrows,
+  faArrowRight,
+  faGraduationCap,
+  faScroll,
+  faSchool
 } from "@fortawesome/free-solid-svg-icons";
 
 // import Nav from './components/Nav'
@@ -82,7 +86,11 @@ library.add(
   faUsers,
   faClipboard,
   faBook,
-  faLink
+  faLink,
+  faArrowRight,
+  faGraduationCap,
+  faScroll,
+  faSchool
 );
 // const fetchedProducts = [
 //   {

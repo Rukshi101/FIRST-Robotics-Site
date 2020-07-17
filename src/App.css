@@ -159,7 +159,7 @@ html{
   position:fixed;
   top:0;
   z-index:-99!important;
-  filter:brightness(55%);
+  filter:brightness(45%);
   height:100vh;
   z-index:22!important;
 
@@ -293,7 +293,7 @@ z-index:2000;
     left:0;
     width:100%;
     background:transparent;
-    height:70px;
+    height:80px;
     z-index:20!important;
     display:block;
     background-color:black;
@@ -1397,7 +1397,12 @@ color:white;
 
 }
 .forwardTitle{
-  font-size:7.5rem;
+  font-size:3.5rem;
+  text-align:left!important;
+  padding-bottom:0!important;
+  margin-bottom:0!important;
+  padding-left:180px;
+  padding-top:280px!important;
 }
 .titles{
   font-size:36px;

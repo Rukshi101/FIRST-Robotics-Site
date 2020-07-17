@@ -13,7 +13,11 @@ function Commitment (props){
        
         <div className = "Commitment CommitmentTitle">
                 
-              <h1>OUR COMMITMENT</h1>
+              <h1 className = "">OUR COMMITMENT</h1>
+          <div className = "hrbackground">
+       <hr className = "forwardhr abouthr " width= "30%" height="2px"  color ="white"/>
+       
+       </div>
             <div className = "CommitmentHeader">
              
                </div>

@@ -62,7 +62,7 @@ state = {
         console.log("FETCHED CONTENT",fetchedPlayBookContent)
         this.setState({fetchedPlayBookTitle,fetchedPlayBookContent})
       }
-      switchContentHandler = () =>{
+      switchContentHandler = () =>{ 
         console.log('Was Clicked');
     }
     render(){

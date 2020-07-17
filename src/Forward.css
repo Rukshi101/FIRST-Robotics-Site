@@ -1,22 +1,39 @@
 .firstforward {
-  width: 265px;
-  height: 50px;
+  width: 230px;
+  height: 45px;
 }
 
 .firstforwardtitle {
   padding: 0 !important;
-  font-size:55px;
+  font-size:40px;
+  padding-top:100px!important;
+  text-align:left!important;
+}
+
+.aboutforwarddesc{
+  text-align:left;
+  color:lightgrey!important
 }
 
 .CommitmentBin {
   text-align: center;
   padding-right: 150px;
   padding-left: 150px;
-  background-color: black;
+  background-color: #141414;
   color: white;
+  
+  padding-top:70px;
 }
 .commitmentDesc{
-  font-size:25px!important;
+  font-size:18px!important;
+  text-align:left!important;
+  font-family: "Montserrat", sans-serif;
+  color:lightgrey;
+  
+}
+.commtimentLink{
+  text-align:left!important;
+  font-size:18px;
 }
 .CommitmentBin h1 {
   font-family: "Montserrat", sans-serif;
@@ -30,12 +47,21 @@
   font-family: "Montserrat", sans-serif;
 
   justify-content: center;
-  align-items: center;
+  text-align: left;
+}
+
+.commitlink{
+  padding-left:33%;
 }
 .CommitmentTitle{
-  font-size:52px;
-  padding-bottom:100px;
+  font-size:30px;
+  color:inherit!important;
 
+}
+.commitmentp{
+  align-items:center;
+  justify-content:center;
+  display:flex;
 }
 @media (min-width: 768px) {
   .CommitmentBin {
@@ -59,13 +85,18 @@
 }
 .Impactcontainer {
   display: flex;
-  background-color: black !important;
-
+  background-color: inherit !important;
+  padding-bottom:70px;
+padding-left:180px;
+padding-right:180px;
   width: 100%;
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
   justify-content: center;
   align-items: center;
+}
+.projectcontainer{
+  background-color: #001a33!important;
 }
 .overlay {
   position: absolute;
@@ -79,12 +110,19 @@
   transition: 0.5s ease;
   background-color: black;
   z-index: 15;
+  border-radius:10px;
 }
 .teamlogo {
   height: 200px !important;
 }
 .ProjectBin:hover .overlay {
   opacity: 1;
+}
+.projects{
+  padding-left:10%;
+  padding-right:10%;
+  padding-top:70px;
+  background-color: #001a33!important;
 }
 
 .text a {
@@ -117,8 +155,7 @@
 }
 .ImpactSection {
   flex: 1;
-  border-left: 2px solid red;
-  border-right: 2px solid red;
+
   margin-right: 30px;
   color: white;
 }
@@ -130,33 +167,44 @@
 }
 
 .projectimagebin {
-  padding-top: 100px;
+
 }
 .ProjectText {
-  padding-top: 150px;
+
   max-height: 500px;
 }
 .ImpactBin {
-  background-color: black !important;
+  background-color:#101010;
   text-align: center;
   font-family: "Montserrat", sans-serif !important;
   font-weight: 700 !important;
-  padding-top: 0px;
-  padding-bottom: 100px;
+  padding-top: 50px;
+  padding-bottom: 20px;
   
+}
+
+.ImpactCard{
+  max-width:50%;
+  margin:0!important;
+  padding:0;
+  display:flex;
+  justify-content:center;
+  align-items:center;
 }
 .projectTitle {
   text-align: center;
   font-family: "Montserrat", sans-serif !important;
   font-weight: 700 !important;
   font-size:50px;
+  padding-bottom:0!important;
+  margin-bottom:0!important;
 }
 
 .ImpactBin h1 {
   text-align: center;
   font-family: "Montserrat", sans-serif !important;
   font-weight: 700 !important;
-  font-size:50px;
+  font-size:40px;
 }
 
 .ImpactHeader {
@@ -181,20 +229,37 @@
 }
 .aboutimage {
   width: 400px !important;
+  border-radius:10px;
+  -webkit-box-shadow:10px 10px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow:10px 10px 5px 0px rgba(0,0,0,0.75);
+  box-shadow:10px 10px 5px 0px rgba(0,0,0,0.75);
+
   height: 400px !important;
 }
 .newhubtitle {
-  padding-left: 60px!important;
+  padding-left: 200px!important;
   text-align: center;
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
 }
 .forwardabout {
-  padding-top: 50px;
+  padding-top: 0px;
+  background-color: #001a33!important;
+
+  padding-bottom:50px;
 }
 .projectimage {
   width: 90% !important;
   height: 90% !important;
+  border-radius:10px;
+  -webkit-box-shadow:10px 10px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow:10px 10px 5px 0px rgba(0,0,0,0.75);
+  box-shadow:10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+.projectdesc{
+  text-align:left!important;
+  font-family: "Montserrat", sans-serif;
+  color:silver!important;
 }
 
 @media (max-width: 768px) {
@@ -211,15 +276,32 @@
     padding-top: 0;
   }
 }
-
-.alliesimage {
-  width: 700px !important;
-  height: 500px !important;
-  padding-top: 80px;
+.alliesdesc{
+  text-align:left;
+  font-family: "Montserrat", sans-serif;
+  color:lightgrey!important;
 }
 
+.alliesimage {
+  width: 570px !important;
+  margin-left:50px;
+  height: 400px !important;
+  margin-top:80px!important;
+  border-radius:10px 10px 10px 10px!important;
+  -webkit-box-shadow:10px 10px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow:10px 10px 5px 0px rgba(0,0,0,0.75);
+  box-shadow:10px 10px 5px 0px rgba(0,0,0,0.75);
+  
+}
+.allies{
+  padding-left:10%;
+  padding-right:15%;
+  background-color: #001a33!important;
+  padding-bottom:40px;
+
+}
 .AlliesTitle {
-  font-size: 50px;
+  font-size: 40px;
   font-weight: 700;
   text-align: center;
   font-family: "Montserrat", sans-serif;
@@ -227,13 +309,15 @@
 }
 
 .Contact {
-  background-color: black;
+  background-color: #141414;
   text-align: center;
   font-family: "Montserrat", sans-serif !important;
   font-weight: 600;
+  padding-top:3%;
+  padding-bottom:3%;
 }
 .contactTitle{
-  font-size:50px;
+  font-size:40px;
 }
 .Contact p {
   color: white;
@@ -260,7 +344,7 @@
 
 #socials {
   padding: 0 !important;
-  margin-right: 7 !important;
+  margin-right: 10px !important;
 }
 .app-bar {
   height: 70px;
@@ -269,12 +353,14 @@
   color: white;
   text-decoration: none;
   font-size: 1.5rem;
+  
 }
 
 .navbarss_nav-items a {
   color: silver;
   text-decoration: none;
-  font-weight: bold;
+  font-weight:700;
+  font-size:14px;
 }
 .spacer {
   flex: 1;
@@ -283,15 +369,17 @@
   list-style: none;
   margin: 0;
   padding: 0;
+  padding-right:200px;
   display: flex;
 }
 
 .navbarss_logos {
-  margin-left: 1rem;
+  margin-left: 11rem;
 }
 
 .navbarss_nav-items li {
-  padding: 0 0.5rem;
+  padding: 0 0.2rem;
+  font-family: "Montserrat", sans-serif;
 }
 
 .navbarss_nav-items a:hover,
@@ -422,6 +510,39 @@
   left: 0;
   width: 100vw;
   filter: brightness(55%);
+
+}
+
+.titledesc{
+  padding-bottom:100px!important;
+
+}
+.forwardmainlink{
+  color:rgb(0, 204, 255)!important;
+  padding-left:200px;
+  font-size:20px;
+  font-weight:700!important;
+
+  font-family: "Montserrat", sans-serif;
+  
+}
+.contactlink{
+  color:rgb(0, 204, 255)!important;
+
+  font-size:20px;
+  font-weight:700!important;
+
+  font-family: "Montserrat", sans-serif;
+}
+.forwardhr{
+  height:5px;
+}
+.hrbackground{
+  background-color:black;
+  padding:0!important;
+  margin-top:0!important;
+  margin-bottom:0!important;
+
 }
 @media (max-width: 600px) {
   .forwardTitle {
@@ -431,9 +552,45 @@
     padding: 0;
   }
 }
+.CommitmentBin{
+  padding-bottom:100px;
+}
+.forwardcommitment{
+  font-size:40px!important;
+  color:inherit!important;
+  background-color: #141414;
 
+}
 video {
   object-fit: fill;
+}
+.maintitledesc{
+  font-size:24px!important;
+  color:lightgrey;
+  padding-left:200px;
+  text-align:left;
+  font-weight:500!important;
+  font-family: "Montserrat", sans-serif;
+
+}
+.abouthr{
+
+
+}
+
+.learnfirst{
+  font-size:24px;
+  text-align:left!important;
+  color:rgb(0, 204, 255)!important;
+  font-weight:600;
+  text-decoration:none;
+  padding-left:0px!important;
+  
+  
+}
+
+.hrposition{
+  padding-left:60px;
 }
 hr {
   margin: 25px auto;
@@ -652,6 +809,10 @@ hr {
   padding: 10px 20px;
   box-sizing: border-box;
 }
+
+.footer-items ul{
+  padding-left:0!important;
+}
 .borders {
   background: radial-gradient(
       ellipse farthest-corner at right bottom,
@@ -680,9 +841,11 @@ h1 {
 
 .footer-items p {
   color: grey;
-  font-size: 16px;
+  font-size: 14px;
   text-align: center;
   line-height: 25px;
+  font-weight:700;
+  font-family: "Montserrat", sans-serif;
 }
 
 h2 {
@@ -695,8 +858,8 @@ h2 {
 
 .border {
   height: 2px;
-  width: 40px;
-  background: #ff9800;
+  width: 45%!important;
+  background: white!important;
 }
 
 ul {
@@ -1076,7 +1239,9 @@ ONLINE HUBS .OnlineHubs {
   height: 10px;
 }
 .teamBins {
-  padding-top: 20px;
+  padding-top: 60px;
+  padding-right:180px!important;
+
 }
 .rick {
   background: #202224;
@@ -1097,11 +1262,12 @@ ONLINE HUBS .OnlineHubs {
 }
 .tools {
   padding: 20px;
+  padding-left:150px!important;
   color: white;
   padding-right: 20px;
   font-family: "Montserrat", sans-serif;
   margin-top: 0;
-  font-size:24px!important;
+  font-size:20px!important;
 }
 
 .tools p {
@@ -1235,7 +1401,7 @@ ONLINE HUBS .OnlineHubs {
   font-weight: 500;
 }
 .forwardtitle {
-  text-align: center;
+  text-align: left;
   font-size: 8rem;
   font-weight: 700;
   font-family: "Montserrat", sans-serif;

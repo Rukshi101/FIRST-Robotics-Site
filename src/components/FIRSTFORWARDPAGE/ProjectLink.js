@@ -9,7 +9,7 @@ class ProjectLink extends React.Component{
         console.log("IMAGE PROPS", imagess)
               
               return(
-                <div className = "Impactcontainer">
+                <div className = "Impactcontainer projectcontainer">
         
                 <div className = "ProjectBin">
                 <img className = "projectimage" src = {require("./CanCode.jpg")} alt=""/>
