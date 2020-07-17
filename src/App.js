@@ -40,7 +40,8 @@ import {
   faArrowRight,
   faGraduationCap,
   faScroll,
-  faSchool
+  faSchool,
+  faWalking
 } from "@fortawesome/free-solid-svg-icons";
 
 // import Nav from './components/Nav'
@@ -90,7 +91,8 @@ library.add(
   faArrowRight,
   faGraduationCap,
   faScroll,
-  faSchool
+  faSchool,
+  faWalking
 );
 // const fetchedProducts = [
 //   {

@@ -8,8 +8,8 @@ const toolbar = props =>(
     <header className = "navbarss">
         <nav className = "navbarss_nav">
         <div className = "navbarss_nav-button"><DrawerToggleButton click ={props.drawerClickHandler}/></div>
-                <div className = "navbarss_logos">
-                    <a href = "/"> <img class = "nav_Logo firstforward" src = {require("./firstforwarddark.png")} alt=""/></a>
+                <div className = "forwardlogobin">
+                    <a href = "/"> <img class = " firstforward" src = {require("./firstforwarddark.png")} alt=""/></a>
                 </div>
           <div className = "spacer"/>
             <div className = "navbarss_nav-items ">

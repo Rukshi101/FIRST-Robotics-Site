@@ -5,20 +5,19 @@ import robot from "./video/roboto.mp4";
 function VideoTitle () {
     return(
 
-<div className = "App">
+<div className = "App videoSection">
       <div className ='row cat'>
         <div className= 'col-md-12'>
-    <h1 className = "title"><em class= "first">FIRST</em> ROBOTICS COMPETITION ROOKIE PORTAL </h1>
+    <h1 className = "title rookiemaintitle"><em class= "first">FIRST</em> ROBOTICS COMPETITION ROOKIE PORTAL </h1>
   
-    <hr width= "50%" size="20"  color ="white"/>
-
+  
 </div>
-<div className = 'col-sm-12 subtitle'>
+<div className = 'col-sm-12 subtitle rookiesub'>
    
     <p>Fostering Future Science and Technology Leaders.</p>
 </div>
 <div className = 'col-md-12 learnMore '>
-    <a className ='actualButton pulse' href="#JoinUs">Start</a>
+    <a className ='actualButton pulse' href="#JoinUs">Get Started</a>
 </div>
 </div>
 <div className = "ParallaxVideo">

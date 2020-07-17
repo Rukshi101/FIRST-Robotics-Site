@@ -9,7 +9,7 @@ class ProjectLink extends React.Component{
         console.log('NAMEEE', name,imagess);
     return(
  
-        <div className = "Impactcontainer">
+        <div className = "Impactcontainer hubpics">
         
             <div className = "ProjectBin">
             <img className = "projectimage" src = {require("../images/1241.jpg")} alt=""/>

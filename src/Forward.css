@@ -85,7 +85,7 @@
 }
 .Impactcontainer {
   display: flex;
-  background-color: inherit !important;
+  background-color: black !important;
   padding-bottom:70px;
 padding-left:180px;
 padding-right:180px;
@@ -94,6 +94,12 @@ padding-right:180px;
   font-weight: 600;
   justify-content: center;
   align-items: center;
+}
+
+.ImpactText{
+  font-family: "Montserrat", sans-serif;
+  font-size:18px;
+  font-weight:700;
 }
 .projectcontainer{
   background-color: #001a33!important;
@@ -318,6 +324,11 @@ padding-right:180px;
 }
 .contactTitle{
   font-size:40px;
+  padding-bottom:0;
+  margin-bottom:0;
+}
+.contacthr{
+  margin-top:10px!important;
 }
 .Contact p {
   color: white;
@@ -794,8 +805,12 @@ hr {
   display: block;
 }
 
+.usefullinks{
+  padding-left:60px!important;
+}
+
 .inner-footer {
-  width: 95%;
+  width: 82%;
   margin: auto;
   padding: 30px;
   display: flex;
@@ -812,6 +827,7 @@ hr {
 
 .footer-items ul{
   padding-left:0!important;
+  margin-left:0!important;
 }
 .borders {
   background: radial-gradient(
@@ -926,6 +942,10 @@ li i {
   width: 300px;
   height: 100px;
   padding-bottom: 20px;
+}
+
+.forwardlogobin{
+  padding-left:4%;
 }
 @media screen and (max-width: 1085px) {
   .footer-items {
@@ -1143,6 +1163,10 @@ input[type="submit"] {
 }
 .titlebox {
   background-color: black;
+}
+
+.rookiemainttitle{
+  padding-left:8%!important;
 }
 .lols h1 {
   background: -webkit-linear-gradient(to top, #8f6b29, #fde08d, #df9f28);
