@@ -4,10 +4,10 @@ import React from 'react'
 function Form (props){
     return(
       
-    <div className= "formSection">
+    <div className= "formSection" id = "form">
              
       
-           <div className = "Impactcontainer">
+           <div className = "formarea">
         
      
         <div className = "ProjectBin">
@@ -31,19 +31,23 @@ function Form (props){
                    <input type="text" className="input"/>
                </div>
                <div className="inputfield">
-                   <label for="">Email address</label>
+                   <label for="">Email </label>
                    <input type="text" className="input"/>
                </div>
                <div className="inputfield">
                    <label for="">Question?</label>
                    <textarea className= "textarea"></textarea>
                </div>
-               <div className= 'inputfield terms'>
-                   <label className= "check">
+               
+     
+                       <div className = "row">
+                       <div className= 'inputfield terms'>
+                                         <label className= "check">
                        <input type = "checkbox"/>
                        <span className= "checkmark"></span>
                        </label>
-                       <p>I understand that the personal information I provide on this form will be used as permitted by the FIRST Privacy Policy.</p>
+                       <p className = "agreement">I understand that the personal information I provide on this form will be used as permitted by the FIRST Privacy Policy.</p>
+                       </div>
                </div>
                <div className= "submitButtondiv">
                    <input type = 'submit' value = "START" className = "submitButton"/>

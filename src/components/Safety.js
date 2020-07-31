@@ -19,6 +19,8 @@ function Safety (props){
     <h1 className = "ResourceTitle">
         Safety
     </h1>
+    <div className = "subresources">
+             
  {safetytitle.map(title =>{
          const {id}= title
          console.log("id", id) 
@@ -36,7 +38,9 @@ function Safety (props){
 
     })}
 </div>
+</div>
    )
+
 }
 
 

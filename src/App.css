@@ -36,6 +36,7 @@ html{
 
 }
 
+
 .CommitmentTitle{
   font-size:30px;
   width:33.333%!important;
@@ -47,6 +48,7 @@ html{
   padding:0;
   margin:0;
   display:inline;
+ 
 }
 
 .CommitmentTitle h1{
@@ -64,18 +66,23 @@ html{
 }
 .CommitmentHeader h1{
   font-weight:bold;
-  
+  text-align:left!important;
 }
 
 .CommitmentHeader {
   display:inline-block;
   background-color:black;
-  text-align:center;
+  text-align:left;
+  padding-left:150px;
+  padding-right:120px;
 }
 
 .ediContent{
   font-family: 'Montserrat', sans-serif;
   font-size:20px;
+  text-align:left;
+  font-weight:200;
+  color:silver;
 }
 .TitleDetail{
   width:33.33%;
@@ -86,11 +93,12 @@ html{
   margin:0;
   padding:0;
   
- padding-bottom:50px;
+ padding-bottom:100px;
   float:left;
-  padding-right:50px;
+  margin-right:1px;
+  padding-right:60px;
   background-color:black;
-  text-align:center;
+  text-align:left;
 
 
 }
@@ -104,6 +112,7 @@ html{
 
   margin:0;
   padding-bottom:30px;;
+  padding-top:8%;
   font-weight:700;
   text-align:center;
   width:100%;
@@ -210,7 +219,7 @@ html{
 .title{
   text-align:left;
 
-  font-size:5rem;
+  font-size:4.7rem;
   font-weight:700;
   font-family: 'Montserrat', sans-serif;
   padding-top:200px!important;
@@ -275,6 +284,9 @@ background-image:linear-gradient(
 .cat{
   z-index:1;
 }
+.subresources{
+  padding-left:100px;
+}
 .subtitle{
   font-size:1.4vw;
   color:white;
@@ -291,6 +303,7 @@ background-image:linear-gradient(
   padding-left:10%!important;
   padding-top:0!important;
   color:lightgrey;
+  font-weight:500!important;
   font-size:24px!important;
 }
 .learnMore{
@@ -326,8 +339,8 @@ padding-left:10%!important;
     background-color:black;
   }
   .subtitle p{
-    font-weight:700;
-    font-size:20px;
+    font-weight:500;
+    font-size:24px;
   }
 .scrolled{
   background-color:black;
@@ -575,9 +588,19 @@ hr{
   background-size: 10px 16px;
   background-position: 0 0,5px 8px;
   background-repeat: repeat; */
-  background-color:black
+  background-color:black;
+  padding-top:7%!important;
+  padding-bottom:9%!important;
  
 }
+.agreement{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+
+}
+
 @media(min-width:769px){
   .cardsections{
   width:100%
@@ -882,6 +905,7 @@ ul li{
 .slider-container img{
   height:350px;
 }
+
 li i{
   margin-right:20px;
 }
@@ -996,11 +1020,13 @@ p h1 h2 h3{
 }
 /* FORM SECTION */
 .formSection{
-  background-color:#141413!important;
+  background-color:black!important;
   display:inline-block;
   justify-content:center;
   align-items:center;
   width:100vw;
+  padding-top:5%;
+  padding-bottom:5%;
 
 }
 
@@ -1141,6 +1167,7 @@ input[type='submit']{
 .submitButtondiv{
   justify-content:center;
   display:flex;
+  line-height:0px!important;
 }
 
 
@@ -1231,8 +1258,15 @@ input[type='submit']{
     margin:0;
     padding:0;
   }
+  .hubdesc{
+    color:silver!important;
+    
+  }
+  .hubdesc p{
+    font-size:44px!important;
+  }
   .hubpics{
-    background-color:black!important;
+    background-color:#001a33!important;
   }
   .hubtitle{
     font-size:30px;
@@ -1276,6 +1310,8 @@ color:white;
     }
 .tools{
     padding:20px;
+    padding-bottom:10px!important;
+   
     color:white;
     padding-right:20px;
     font-family: 'Montserrat', sans-serif;
@@ -1299,9 +1335,11 @@ color:white;
         text-align:center;
         align-items:center;
         padding-right:210px;
-   
         text-transform:uppercase;
         color:white;
+    }
+    .hubs{
+      background-color:#001a33!important;
     }
  
     .hubs p{
@@ -1366,7 +1404,9 @@ color:white;
     text-align:center;
     /* background-color:#141413;
     background-image:radial-gradient(circle,rgba(255,255,255,.045) 24%,transparent 26%),radial-gradient(circle,rgba(255,255,255,.045) 24%,transparent 26%); */
-    background-color:black!important;
+    background-color:#001a33!important;
+    padding-top:5%!important;
+    padding-bottom:6%!important;
     margin:0;
     padding:0;
   }
@@ -1413,14 +1453,19 @@ color:white;
     height:620px;
   }
 .wrapper{
-
-  width:90%!important;
+  -webkit-box-shadow: 10px 10px 87px 10px rgba(173,173,173,0.58);
+  -moz-box-shadow: 10px 10px 87px 10px rgba(173,173,173,0.58);
+  box-shadow: 10px 10px 87px 10px rgba(173,173,173,0.58);
+  width:100%!important;
   background-color:black;
-  margin:50px auto;
-  box-shadow: 2px 2px 4px rgba(0,0,0,0.125);
+  border-radius:20px;
+  padding-right:100px!important;
+  
+  /* box-shadow: 10px 10px 5px white; */
   padding:30px;
   font-family: 'Montserrat', sans-serif;
-  border:3px solid none;
+  /* border:3px solid white; */
+
 
 }
 .forwardTitle{
@@ -1464,6 +1509,11 @@ color:white;
 
 }
 
+.formarea{
+  background-color:black!important;
+  padding-left:8%;
+  padding-right:8%;
+}
 .wrapper .form{
   width:100%;
 
@@ -1482,13 +1532,16 @@ color:white;
   display:flex;
   align-items:center;
   color:white;
+  padding:15px;
   font-family: 'Montserrat', sans-serif;
 }
 
 .wrapper .form .inputfield label{
-  width:200px;
+  width:150px;
   color: white!important;
-  margin-right:10px;
+  font-weight:600;
+  font-family: 'Montserrat', sans-serif;
+
   font-size:20px;
 }
 
@@ -1496,10 +1549,10 @@ color:white;
 .wrapper .form .inputfield .textarea{
   width:100%;
   outline:none;
-  border:1px solid white!important;
+   border:1px solid black!important;
   font-size:15px;
   padding:15px;
-  border-radius:3px;
+  border-radius:10px;
   color:white;
   transition:all 0.3s ease;
   background-color: rgb(69,69,71);
@@ -1529,12 +1582,16 @@ color:white;
   width:15px;
   height:15px;
   position:relative;
-  display:block;
+  display:flex;
+  align-items:center;
+  justify-content:center;
   cursor:pointer;
+  margin-right:20px;
+  margin-left:20px;
 }
 .submitButton{
   width:100%;
-  padding:8px 10px;
+ line-height:0px!important;
   font-size: 15px;
   border:0px;
   background-color:black;
@@ -1542,7 +1599,7 @@ color:white;
   cursor:pointer;
   border-radius:3px;
   outline:none;
-  border:1px solid white;
+  border:1px solid white!important;
 }
 
 .wrapper .form .inputfield .check input[type = "checkbox"]{
@@ -1550,6 +1607,7 @@ color:white;
   top:0;
   left:0;
   opacity:0;
+  margin-right:10px;
 }
 
 .wrapper .form .inputfield .check .checkmark{
@@ -1637,17 +1695,25 @@ color:white;
 .overflow img{
   width:40px!important;
 }
-
+.bin{}
 .card{
-  width:300px;
-  height:300px;
-  background-color:#202224!important;
+  width:240px;
+  height:310px;
+  background-color:black!important;
   border-radius:30px!important;
-  border:2px solid blue!important;
-  -webkit-box-shadow:10px 10px 5px 0px blue;
+  border:2px solid black!important;
+  /* -webkit-box-shadow:10px 10px 5px 0px blue;
   -moz-box-shadow:10px 10px 5px 0px blue;
-  box-shadow:10px 10px 5px 0px blue;
+  box-shadow:10px 10px 5px 0px blue; */
+  /* box-shadow:5px 5px 2px 1px	#787878; */
+  -webkit-box-shadow: 10px 10px 87px 10px rgba(173,173,173,0.58);
+  -moz-box-shadow: 10px 10px 87px 10px rgba(173,173,173,0.58);
+  box-shadow: 10px 10px 87px 10px rgba(173,173,173,0.58);
 
+}
+
+.cardsection{
+  padding-left:2%!important;
 
 }
 
@@ -1672,6 +1738,9 @@ color:white;
   display:none;
 }
 
+.react-3d-carousel .slider-container .slider-content .slider-single{
+  /* box-shadow:10px 10px 5px  */
+}
 .card-title{
   font-size:30px!important;
   font-family:'Montserrat', sans-serif!important;
@@ -1692,7 +1761,7 @@ color:white;
 
 .SignUp h1{
   color:white;
-  padding-top:30px!important;
+ 
   padding-bottom:30px!important;
   text-align:center;
   text-transform:uppercase;
@@ -1703,7 +1772,7 @@ color:white;
 
 .SignUpTitle{
   
-  width:22%;
+  width:20%;
   color:white;
   font-family: 'Montserrat', sans-serif!important;
   margin:0;
@@ -1711,23 +1780,25 @@ color:white;
  font-weight:600;
  padding-bottom:150px;
   float:left;
-  background-color:#141413;
+  background-color:#141413!important;
   margin:20px;
+  border-radius:20px;
   padding:20px
 
 
 }
 
 .ResourceCards{
-  padding-top:100px!important;
+  
 }
 .SignUp h1{
   font-family: 'Montserrat', sans-serif!important;
 }
 .registerInfo{
-  text-align:center;
+  text-align:left;
   font-family: 'Montserrat', sans-serif!important;
-  margin-right:100px;
+  margin-right:150px;
+  padding-left:50px;
   margin-left:100px;
   font-size:22px;
   line-height:1.4;
@@ -1801,8 +1872,8 @@ color:white;
 }
 .center{
   display:flex;
-  justify-content:center;
-  align-items:center;
+  justify-content:right!important;
+  align-items:center!important;
 }
 .resourceBackground{
   background-color:#141413;
@@ -1811,7 +1882,7 @@ color:white;
   padding-top:1.5rem!important;
   padding-left:0!important;
   padding-right:0!important;
-  padding-bottom:0!important;
+  padding-bottom:10%!important;
 }
 .SignUpTitle{
 
@@ -1839,8 +1910,51 @@ color:white;
 .resourcenavbar{
   position:fixed;
 }
+.registrationhr{
+  padding-top:10px;
+  padding-bottom:0;
+ 
+  margin:0;
+  margin-top:10px;
+  margin-left:150px;
+  display:flex;
+  justify-content:left;
+  background-color:red;
+  height:10px;
+}
+.abouthrs{
+
+  padding-bottom:0;
+  margin-left:160px!important;
+  margin:0;
+  margin-top:100px;
+  height:7px!important;
+  display:flex;
+  justify-content:left;
+  background-color:rgba(255, 5, 5, 0.87);
+
+  height:10px;
+}
+.forwardhrs{
+
+  padding-bottom:0;
+  margin-left:10px!important;
+  margin:0;
+  margin-top:10px;
+
+  display:flex;
+  justify-content:left;
+  background-color:rgba(255, 5, 5, 0.87);
+
+  height:10px;
+}
+
+.RegistrationTitle{
+  text-align:left!important;
+  padding-left:150px;
+}
 .sidebar{
-  height:900px!important;
+  height:900pxregistrationhr!important;
 }
 
 .sidebar-menu{
@@ -1874,31 +1988,37 @@ color:white;
 .ResourceTitle{
   color:white;
   font-size:36px;
+  text-align:left!important;
+  padding-left:150px;
 }
 .Registration{
   width:100%;
   background-color:blue;
+  padding-left:130px;
 }
 
 .resourcespage{
   margin:0!important;
-  padding:0!important;
+ 
   margin-top:70px;
-  text-align:center;
+  text-align:left;
   background-color:#141413;
   color:white;
+  padding-top:10%!important;
+  padding-bottom:10%!important;
   
 }
 .resourcespage p{
   margin-top:0px;
-  font-size:35px;
+  font-size:24px;
 }
 .ResourceTitle h1{
   font-size:36px;
+  text-align:left!important
 }
 .resourcestitle{
   font-family: 'Montserrat', sans-serif;
-  font-size:8rem!important;
+  font-size:5rem!important;
   font-weight:700;
   padding-top:100px;
 }
@@ -1914,7 +2034,9 @@ color:white;
 .resourcesdescription{
   padding:0!important;
   margin:0!important;
+  text-align:center;
   margin-bottom:100px!important;
+  padding-bottom:11%!important;
 }
 
 .SignUpHeaders a{

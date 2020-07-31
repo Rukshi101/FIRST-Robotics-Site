@@ -13,9 +13,10 @@ function Project(props){
        </div>
     
        <div class = "col-sm-6 ProjectText" id='title'>
+       <hr className = "forwardhrs" color = 'green' width = '330px'></hr>
        <h1 className = "projectTitle">Our Projects</h1>
        <div className = "">
-       <hr className = "forwardhr abouthr" width= "30%" height="2px"  color ="white"/>
+     
        </div>
            <p class = "projectdesc"> Click on the images below to find out about some of our projects that are helping to propel the next generation forward.
 

@@ -1,6 +1,7 @@
 import React from 'react'
 
 import robot from "./video/roboto.mp4";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function VideoTitle () {
     return(
@@ -14,10 +15,10 @@ function VideoTitle () {
 </div>
 <div className = 'col-sm-12 subtitle rookiesub'>
    
-    <p>Fostering Future Science and Technology Leaders.</p>
+    <p>Resources and Support for every single aspect of FRC.</p>
 </div>
-<div className = 'col-md-12 learnMore '>
-    <a className ='actualButton pulse' href="#JoinUs">Get Started</a>
+<div className = 'col-md-12'>
+    <a href = "#getStarted" className = "forwardmainlink">GET STARTED  <FontAwesomeIcon color = 'inherit ' icon = {['fa', 'arrow-right']}/></a>
 </div>
 </div>
 <div className = "ParallaxVideo">

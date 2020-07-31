@@ -19,6 +19,8 @@ import {
   faYoutube,
   faTwitter,
   faInstagram,
+ 
+
 } from "@fortawesome/free-brands-svg-icons";
 
 import {
@@ -41,7 +43,14 @@ import {
   faGraduationCap,
   faScroll,
   faSchool,
-  faWalking
+  faWalking,
+  faWrench,
+
+  faWifi,
+  faUserGraduate,
+  faChalkboardTeacher,
+ 
+  faHandsHelping
 } from "@fortawesome/free-solid-svg-icons";
 
 // import Nav from './components/Nav'
@@ -92,7 +101,12 @@ library.add(
   faGraduationCap,
   faScroll,
   faSchool,
-  faWalking
+  faWalking,
+  faWrench, 
+  faWifi,
+  faUserGraduate,
+  faHandsHelping,
+  faChalkboardTeacher
 );
 // const fetchedProducts = [
 //   {

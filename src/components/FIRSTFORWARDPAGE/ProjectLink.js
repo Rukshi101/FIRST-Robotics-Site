@@ -9,7 +9,8 @@ class ProjectLink extends React.Component{
         console.log("IMAGE PROPS", imagess)
               
               return(
-                <div className = "Impactcontainer projectcontainer">
+                  <div>
+                <div className = "Impactcontainer projectcontainer firstprojrow">
         
                 <div className = "ProjectBin">
                 <img className = "projectimage" src = {require("./CanCode.jpg")} alt=""/>
@@ -35,7 +36,8 @@ class ProjectLink extends React.Component{
                     <div className = "text"><a href = 'https://www.firstroboticscanada.org/firstlive/'>FIRST Live!</a></div>
                 </div>
               </div>  
-              
+              </div>
+              <div className = "Impactcontainer projectcontainer">
               <div className = "ProjectBin">
                 <img className = "projectimage" src = {require("./WomenStem.png")} alt=""/>
                 <div className = "overlay">
@@ -62,6 +64,7 @@ class ProjectLink extends React.Component{
               </div>
                 </div>
             
+                </div>
 
   
             

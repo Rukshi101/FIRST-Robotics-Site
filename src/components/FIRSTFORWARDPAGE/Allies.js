@@ -8,11 +8,10 @@ function Allies(props){
        
 
        <div class = "col-sm-6 hubtext forwardhubtext" id='title'>
+       <hr className = "forwardhrs allieshr" color = 'green' width = '400px'></hr>
        <h1 className = "AlliesTitle"> Allies & Influencers</h1>
-       <div className = "">
-       <hr className = "forwardhr abouthr" width= "70%" height="2px"  color ="white"/>
-       </div>
-           <p class = "alliesdesc "> FIRST® Allies & Influencers is a movement of impassioned community partner organizations, local governments, foundations, businesses, schools and universities who believe deeply in advancing equity and improving outcomes for all.
+       
+           <p class = "alliesdesc "> <em className = "FIRST">FIRST </em>® Allies & Influencers is a movement of impassioned community partner organizations, local governments, foundations, businesses, schools and universities who believe deeply in advancing equity and improving outcomes for all.
 
 
  </p>

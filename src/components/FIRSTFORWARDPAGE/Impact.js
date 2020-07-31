@@ -9,7 +9,7 @@ function Impact(props){
      
        </div>
         <p>Through our programs we have:</p>
-        <div className = "Impactcontainer">
+        <div className = "Impactcontainer impactstates">
         
             <div className = "ImpactSection">
                 <div className = "ImpactHeader">

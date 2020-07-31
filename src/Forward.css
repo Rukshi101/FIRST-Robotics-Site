@@ -6,7 +6,7 @@
 .firstforwardtitle {
   padding: 0 !important;
   font-size:40px;
-  padding-top:100px!important;
+  padding-top:10px!important;
   text-align:left!important;
 }
 
@@ -19,7 +19,7 @@
   text-align: center;
   padding-right: 150px;
   padding-left: 150px;
-  background-color: #141414;
+  background-color: black;
   color: white;
   
   padding-top:70px;
@@ -85,10 +85,10 @@
 }
 .Impactcontainer {
   display: flex;
-  background-color: black !important;
+
   padding-bottom:70px;
-padding-left:180px;
-padding-right:180px;
+padding-left:140px;
+padding-right:110px;
   width: 100%;
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
@@ -180,7 +180,7 @@ padding-right:180px;
   max-height: 500px;
 }
 .ImpactBin {
-  background-color:#101010;
+  background-color:black;
   text-align: center;
   font-family: "Montserrat", sans-serif !important;
   font-weight: 700 !important;
@@ -198,14 +198,22 @@ padding-right:180px;
   align-items:center;
 }
 .projectTitle {
-  text-align: center;
+  text-align: left;
+  padding-left:10px;
+  
   font-family: "Montserrat", sans-serif !important;
   font-weight: 700 !important;
   font-size:50px;
-  padding-bottom:0!important;
-  margin-bottom:0!important;
+ 
 }
 
+.firstprojrow{
+  padding-bottom:25px!important
+}
+
+.impactstates{
+  color:black!important;
+}
 .ImpactBin h1 {
   text-align: center;
   font-family: "Montserrat", sans-serif !important;
@@ -243,7 +251,7 @@ padding-right:180px;
   height: 400px !important;
 }
 .newhubtitle {
-  padding-left: 200px!important;
+  padding-left: 160px!important;
   text-align: center;
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
@@ -306,16 +314,20 @@ padding-right:180px;
   padding-bottom:40px;
 
 }
+.allieshr{
+  margin-top:180px;
+}
 .AlliesTitle {
   font-size: 40px;
   font-weight: 700;
-  text-align: center;
+  padding-left:10px;
+  text-align: left;
   font-family: "Montserrat", sans-serif;
-  padding-top:180px;
+  
 }
 
 .Contact {
-  background-color: #141414;
+  background-color: black;
   text-align: center;
   font-family: "Montserrat", sans-serif !important;
   font-weight: 600;
@@ -380,7 +392,7 @@ padding-right:180px;
   list-style: none;
   margin: 0;
   padding: 0;
-  padding-right:200px;
+  padding-right:140px;
   display: flex;
 }
 
@@ -424,6 +436,7 @@ padding-right:180px;
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
   color: white !important;
+  padding:100px;
 }
 .sideDrawerLogo {
   margin-bottom: 80px;
@@ -528,6 +541,10 @@ padding-right:180px;
   padding-bottom:100px!important;
 
 }
+
+.testimonialSlide img{
+  border-radius:10px;
+}
 .forwardmainlink{
   color:rgb(0, 204, 255)!important;
   padding-left:200px;
@@ -554,6 +571,9 @@ padding-right:180px;
   margin-top:0!important;
   margin-bottom:0!important;
 
+}
+.commitmenthr{
+  margin-left:36%!important;
 }
 @media (max-width: 600px) {
   .forwardTitle {
@@ -945,7 +965,7 @@ li i {
 }
 
 .forwardlogobin{
-  padding-left:4%;
+  padding-left:1%;
 }
 @media screen and (max-width: 1085px) {
   .footer-items {
@@ -1056,7 +1076,23 @@ li i {
   height: 40px;
   color: white;
 }
+.viewSource {
+  align-items:right;
+  justify-content:right!important;
+  margin-left:1320px;
+  text-decoration:none;
+  color:white;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  font-size:24px;
+  padding-top:50px;
+  padding-bottom:60px;
 
+
+}
+.viewSource:hover{
+  text-decoration:none;
+}
 .container .row100 .inputBox input,
 .container .row100 .inputBox.textarea textarea {
   position: absolute;
@@ -1235,7 +1271,7 @@ ONLINE HUBS .OnlineHubs {
   padding-bottom: 0px !important;
 }
 .hubs {
-  background-color: BLACK;
+  background-color: #000f58;
 
   text-align: center;
 
@@ -1284,6 +1320,9 @@ ONLINE HUBS .OnlineHubs {
 
   color: white;
 }
+.FIRST{
+  font-style:italic;
+}
 .tools {
   padding: 20px;
   padding-left:150px!important;
@@ -1319,7 +1358,7 @@ ONLINE HUBS .OnlineHubs {
 .hubs p {
   color: white;
   margin: 0;
-  margin-left: 60px;
+  margin-left: 10px;
   padding-left: 0px;
   font-size: 20px;
 }
