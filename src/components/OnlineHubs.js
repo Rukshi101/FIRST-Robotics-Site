@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function OnlineHubs(props){
     return(
-        <div className = "hubs">
+        <div className = "hubs" id = 'hubsection'>
             
     <h1 className = "hubtitle">Hubs and Online Help Centers</h1>
     <div class = "row ">

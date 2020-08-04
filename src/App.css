@@ -570,7 +570,15 @@ padding-left:10%!important;
 }
 .Contact{
   color:white;
-  background-color:#141413;
+  background-color:#141413!important;
+}
+
+.seniorMentor{
+  width:80%!important;
+  height:80%!important;
+}
+.seniormentora{
+  margin-top:200px;
 }
 video{
   object-fit:fill;
@@ -2058,4 +2066,10 @@ color:white;
 .john{
   width:500px;
   height:400px;
+  border-radius:20px;
+}
+
+.contacttitle{
+  padding-left:150px;
+  text-align:left!important;
 }

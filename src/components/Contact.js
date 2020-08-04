@@ -76,17 +76,45 @@ const fetchedContactName = [
         return(
             <div className = "SignUp contactinfo">
               <Navbar/>
-              <h1>Contact Us</h1>
-              <p className = 'registerInfo'>First, familiarize yourself with the FIRST Robotics Competition. Then locate your region’s Regional Director or FIRST Senior Mentor. </p>
-                <div className = "resourceBackground">
+              
+              <hr className = "registrationhr" color = 'green' width = '310px'></hr>
+              <h1 className = "contacttitle">Contact Us</h1>
+              <p className = 'registerInfo'>After familiarizing yourself with the FIRST Robotics Competition, you may contact us to get started!Then locate your region’s Regional Director or FIRST Senior Mentor. These people know the FIRST teams, participating schools, and FIRST-friendly businesses in your area. they can help you form a plan for getting your team funded, organized, and in touch with other teams in the area.  </p>
+               
+              <div className = "row">
+                 
+                 <div className = "col-md-6 cardsections">
+                 <img className = "john" src = {require("../images/john.jpg")} alt=""/>
                  <ContactTitle
                titles = {this.state.fetchedContactName}
                content ={this.state.fetchedContactInfo}
                 />
+                 </div>
+             
+             <div className = "col-md-5 cardsections">
+                   
+      <div className = "card text-center seniorMentor">
+        <div className = "overflow">
+          
+          <div className = "fonts">
+            <p></p>
+            </div>
+        </div>
+        <div className = "card-body text-dark">
+          <h4 className = "card-title"> <a className = 'seniormentora' href = "https://www.firstroboticscanada.org/about-us/staff/">Senior Mentors</a></h4>
+        
+       
+      </div>
+      </div>
+                 </div>
+           </div>
+                <div className = "resourceBackground">
+            
+                
                 </div>
-                  <img className = "john" src = {require("../images/john.jpg")} alt=""/>
-                <p className = 'registerInfo mentordesc'>These people know the FIRST teams, participating schools, and FIRST-friendly businesses in your area. they can help you form a plan for getting your team funded, organized, and in touch with other teams in the area.</p>
-                <p className = 'registerInfo'><a href = "https://www.firstroboticscanada.org/about-us/staff/">FIRST Senior Mentors</a></p>
+
+               
+               
                 <Footer/>
             </div>
         )

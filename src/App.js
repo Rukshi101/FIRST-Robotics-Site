@@ -76,6 +76,7 @@ import Landing from "./components/FIRSTFORWARDPAGE/Landing";
 import Registration from "./components/Registration";
 import Contact from "./components/Contact";
 import FirstSteps from "./components/FirstSteps";
+import ScrollToTop from "./components/ScrollToTop"
 // import ProjectLinkSection from './components/FIRSTFORWARDPAGE/ProjectLinkSection'
 library.add(
   fab,
@@ -138,7 +139,9 @@ class App extends Component {
     
     
     return (
+     
       <Router>
+         <ScrollToTop>
         <div className="App" style={{ height: "100%" }}>
           
 
@@ -156,7 +159,9 @@ class App extends Component {
             <Route path="/InEvent" component={InEvent} />
             <Route path="/Playbooks" component={Playbook} />
             <Route path="/game" component={Game} />
+         
             <Route path="/register" component={Registration} />
+          
             <Route path="/contact" component={Contact} />
             <Route path="/firststeps" component={FirstSteps} />
             <Route
@@ -165,7 +170,9 @@ class App extends Component {
             />
           </Switch>
         </div>
+        </ScrollToTop>
       </Router>
+      
     );
   }
 }

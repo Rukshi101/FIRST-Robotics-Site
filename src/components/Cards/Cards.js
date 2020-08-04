@@ -44,7 +44,7 @@ class Cards extends Component {
                    imgsrc = {require("../../images/ReverseLogo.png")}
                    title = "Contact Us"
                    font = {<FontAwesomeIcon size = '6x' icon = "chalkboard-teacher"/>}
-                     link={<Link className = "Nav_Link" to = "youthcouncil">Connect to Mentor</Link>}/>
+                     link={< a href ="https://www.firstroboticscanada.org/about-us/staff/">Connect to Mentor</a>}/>
               </div>
          
               <div className = "col-md-2 cardsections">
@@ -52,14 +52,14 @@ class Cards extends Component {
                    imgsrc = {require("../../images/ReverseLogo.png")}
                    title = "Contact Us"
                    font = {<FontAwesomeIcon size = '6x' icon = "user-graduate"/>}
-                     link={<Link className = "Nav_Link" to = "youthcouncil">Visit Mobile Alumni Crew</Link>}/>
+                     link={< a href ="https://www.firstroboticscanada.org/mac/">Mobile Alumni Crew</a>}/>
               </div>
               <div className = "col-md-2 cardsections">
                   <GetStarted
                    imgsrc = {require("../../images/ReverseLogo.png")}
                    title = "Contact Us"
                    font = {<FontAwesomeIcon size = '6x' icon = "hands-helping"/>}
-                     link={<Link className = "Nav_Link" to = "youthcouncil">Connect to FIRST Canada Hubs</Link>}/>
+                     link={< a href =" https://www.firstroboticscanada.org/hubs/">Visit FIRST Hubs</a>}/>
               </div>
                 </div>
                 </div>
