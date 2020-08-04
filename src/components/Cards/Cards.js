@@ -59,7 +59,7 @@ class Cards extends Component {
                    imgsrc = {require("../../images/ReverseLogo.png")}
                    title = "Contact Us"
                    font = {<FontAwesomeIcon size = '6x' icon = "hands-helping"/>}
-                     link={< a href =" https://www.firstroboticscanada.org/hubs/">Visit FIRST Hubs</a>}/>
+                     link={< a href ="https://www.firstroboticscanada.org/hubs/">Visit FIRST Hubs</a>}/>
               </div>
                 </div>
                 </div>
