@@ -12,7 +12,7 @@ function OnlineHubs(props){
       
 
        <div className = "col-sm-12 realhubtext" id='title'>
-         <p className = "tools hubdesc">FIRST Robotics Canada provides all FIRST teams with tools for support at any given time including providing support to FIRST Robotics Competition rookie teams. Think of the Walk-in Help Centre as a HUB location where teams can plan ahead or The Online Helpdesk and Hubs are run by FIRST Robotics Competition veteran teams where you can drop in and request team support including machine shop resources, build, design, programming and business and awards support. </p>
+         <p className = "tools hubdesc"><em className = "FIRST">FIRST </em> Robotics Canada provides all FIRST teams with tools for support at any given time including providing support to FIRST Robotics Competition rookie teams. Think of the Walk-in Help Centre as a HUB location where teams can plan ahead or The Online Helpdesk and Hubs are run by FIRST Robotics Competition veteran teams where you can drop in and request team support including machine shop resources, build, design, programming and business and awards support. </p>
           
        </div>
        

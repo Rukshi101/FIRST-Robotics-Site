@@ -76,7 +76,8 @@ import Landing from "./components/FIRSTFORWARDPAGE/Landing";
 import Registration from "./components/Registration";
 import Contact from "./components/Contact";
 import FirstSteps from "./components/FirstSteps";
-import ScrollToTop from "./components/ScrollToTop"
+import RegistrationHQ from './components/RegisterHQ'
+import ScrollToTop from "./components/ScrollToTop";
 // import ProjectLinkSection from './components/FIRSTFORWARDPAGE/ProjectLinkSection'
 library.add(
   fab,
@@ -161,7 +162,7 @@ class App extends Component {
             <Route path="/game" component={Game} />
          
             <Route path="/register" component={Registration} />
-          
+            <Route path="/registerHQ" component={RegistrationHQ} />
             <Route path="/contact" component={Contact} />
             <Route path="/firststeps" component={FirstSteps} />
             <Route

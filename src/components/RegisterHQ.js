@@ -37,7 +37,7 @@ const fetchedSignUpTitle = [
             id:4, text:"loxndfjoasndoinasdonasodnosnadoansd",  title : fetchedSignUpTitle[3]
             }
   ]
-  class SignUpPage extends Component{
+  class RegistrationHQ extends Component{
     state={
       fetchedSignUpTitle,
       fetchedSignUpcontent,
@@ -79,37 +79,16 @@ const fetchedSignUpTitle = [
             <div>
               <BlackNavbar/>
               <div className = "SignUp">
-              <hr className = "registrationhr" color = 'green' width = '400px'></hr>
-        <h1 className = "RegistrationTitle">Start your Team</h1>
-              <div className = "flex-container">
-             <div className = 'videosignup '>
-             <p className = "signuptext">
-             If you would like to start a FIRST Robotics Competition team in your area, 
-we welcome you and promise to provide you with all the support, ideas, and encouragement you need to succeed! Familiarize yourself with the FIRST Robotics Competition.
-</p>
-<p  className = "signuptext">
-
-FIRST ® Robotics Competition combines the excitement of sport with the rigors of science and technology. High school students use sophisticated technology to build and program industrial-size robots for a challenging field game. High School participants are eligible to apply for more than $80 million in scholarships from colleges, universities, and technical programs. 
-</p>
-<p  className = "signuptext">
-BUILD YOUR TEAM with high-school-aged students. You need at least 2 adult mentors, meeting and build space, team coaches and mentors must complete Youth Protection Screening.
-Once registered into the program, the team will design, build, and program a robot to perform specific tasks in the season game against a field of competitors. Teams will then attend an event and compete alongside other teams at official FIRST events.
-
-             </p>
-             </div>
-             <div className = "signupvideo">
-             <ReactPlayer className = "reactplayervid"
-               url = "https://www.youtube.com/watch?time_continue=2&v=wSA6InzFAZE"/>
-             </div>
-
-             </div>
-             <div className = " signupimage col-md-12">
-             <img className = "signupimageimage" src = {require("../images/realsignup.PNG")} alt=""/>
-             </div>
+              <hr className = "registrationhr" color = 'green' width = '500px'></hr>
+        <h1 className = "RegistrationTitle">Register with FIRST HQ</h1>
+        <div>
+            <p className = "firsthqtext">You’ll begin receiving communications from FIRST, along with a temporary team number in preparation for event registration in the fall.  Create a team roster link to submit with your registration.  (Please note that completing this stage of the process does not commit you to becoming a team.). Registering includes event registration and ordering the Kit of Parts. We’ve made it easy to pay your team’s fees with favorable terms, online payments, discounts for rookie teams, and more.</p>
+        </div>
+             
             </div>
             <Footer/>
             </div>
         )
         }
   }
-export default SignUpPage
+export default RegistrationHQ

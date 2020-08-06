@@ -38,9 +38,9 @@ function Testimonial (props){
     return (
 <div className = "Testimonial">
 
-    <h1 className = "TestimonialSectionTitle">FIRST COMMUNITY</h1>
+    <h1 className = "TestimonialSectionTitle">OUR COMMUNITY</h1>
     
-    <h2> Hear what educators, alumni and Student say about FIRST!</h2>
+    <h2> Hear what educators, alumni and Student say about <em className = "FIRST">FIRST! </em></h2>
         <Carousel slides = {slides} autoplay = {true} interval = {10000}/>
 </div>
 

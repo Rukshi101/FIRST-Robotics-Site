@@ -829,6 +829,49 @@ hr {
   padding-left:60px!important;
 }
 
+.videosignup{
+  padding-left:8%!important;
+  padding-right:100px!important;
+}
+
+.signupvideo{
+  padding-right:150px;
+}
+
+
+.firsthqtext{
+  padding-left:9%;
+  padding-right:9%;
+  font-weight:600;
+  font-size:18px;
+  font-family: "Montserrat", sans-serif;
+
+}
+.signuptext{
+  font-weight:600;
+  font-size:18px;
+  font-family: "Montserrat", sans-serif;
+}
+.signupimage{
+  display:flex;
+  justify-content:center;
+ 
+}
+.signupimageimage{
+  max-width:84%;
+  width:84%;
+}
+.reactplayervid{
+  height:400px!important;
+}
+.flex-container{
+  display:flex;
+}
+
+.flex-container >div{
+  margin:10px;
+}
+
 .inner-footer {
   width: 82%;
   margin: auto;

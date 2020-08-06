@@ -15,7 +15,7 @@ function VideoTitle () {
 </div>
 <div className = 'col-sm-12 subtitle rookiesub'>
    
-    <p>Resources and Support for every single aspect of FRC.</p>
+    <p>Resources and Support for every single department</p>
 </div>
 <div className = 'col-md-12'>
     <a href = "#getStarted" className = "forwardmainlink">GET STARTED  <FontAwesomeIcon color = 'inherit ' icon = {['fa', 'arrow-right']}/></a>
