@@ -8,7 +8,10 @@ import ProjectImage from './ProjectImage'
 const fetchedProjectTitle = [
     {
       id:1,name:"DUMMY DATA"
-    }
+
+    },
+    
+
   
     
   ]

@@ -9,11 +9,12 @@ function ContactUs(props){
             <div className = "">
        <hr className = "forwardhr abouthr contacthr" width= "10%" height="2px"  color ="white"/>
        </div>
-            <p>Want to learn more about <em className = "FIRST">FIRST </em> Forward programs in your area or just get in touch?</p>
-            <a href = "https://forward.firstroboticscanada.org/contact" className = "contactlink">Get Started  <FontAwesomeIcon color = 'inherit ' icon = {['fa', 'arrow-right']}/></a>
+            <p>Click <a href = "https://www.firstroboticscanada.org/" >Here</a> to learn more about FIRST Canada</p>
+          
            
             </div>
    
 )
     }
 export default ContactUs
+//     <a href = "https://forward.firstroboticscanada.org/contact" className = "contactlink">Get Started  <FontAwesomeIcon color = 'inherit ' icon = {['fa', 'arrow-right']}/></a>

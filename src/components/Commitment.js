@@ -7,7 +7,7 @@ function Commitment (props){
     return(
         <div className = "hubs" id = 'hubsection'>
             
-    <h1 className = "hubtitle commitpadding">Equity, Diversity and Inclusion</h1>
+    <h1 className = "hubtitle commitpadding">Equity, Diversity, and Inclusion</h1>
     <div class = "row ">
       
     <div className = "flex-container">

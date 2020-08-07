@@ -44,7 +44,7 @@ class Cards extends Component {
                    imgsrc = {require("../../images/ReverseLogo.png")}
                    title = "Contact Us"
                    font = {<FontAwesomeIcon size = '6x' icon = "chalkboard-teacher"/>}
-                     link={< a href ="https://www.firstroboticscanada.org/about-us/staff/">Connect to Mentor</a>}/>
+                     link={< a href ="https://www.surveymonkey.com/r/ConnectToMentor">Connect to Mentor</a>}/>
               </div>
          
               <div className = "col-md-2 cardsections">

@@ -22,7 +22,18 @@ function Footer(props){
         </div>
         </div>
         
-           
+        <div class = 'footer-items'>
+            <h2>Programs</h2>
+            <div class = "border"></div>
+            <ul>
+                <a href = "/"><li><em className = "FIRST">FIRST </em> Lego League</li></a>
+                <a href = "/"><li><em className = "FIRST">FIRST </em> Tech Challenge</li></a>
+                <a href = "/"><li><em className = "FIRST">FIRST </em> Robotics Competition</li></a>
+            </ul>
+        
+
+        
+        </div>
 
         <div class = 'footer-items usefullinks'>
             <h2>Useful Links</h2>
@@ -30,7 +41,7 @@ function Footer(props){
             <ul>
             <li> <a href = "https://www.firstinspires.org/about/vision-and-mission">About Us</a></li>
                 <li> <Link className = "Nav_Link" to = "contact">Contact us</Link></li>
-                <a href = "https://login.firstinspires.org/core/login?signin=eaa4b1506e8f0ce2ec043da7c8e19f68"><li><em className = "FIRST">FIRST </em> Dashboard</li></a>
+                <a href = "https://my.firstinspires.org/AccountManager/Account/Register"><li><em className = "FIRST">FIRST </em> Dashboard</li></a>
                 <a href = "https://www.firstroboticscanada.org/get-involved/volunteer/"><li>Volunteer Information</li></a>
            
      
@@ -48,18 +59,7 @@ function Footer(props){
             </ul>
             
         </div>
-        <div class = 'footer-items'>
-            <h2>Programs</h2>
-            <div class = "border"></div>
-            <ul>
-                <a href = "/"><li><em className = "FIRST">FIRST </em> Lego League</li></a>
-                <a href = "/"><li><em className = "FIRST">FIRST </em> Tech Challenge</li></a>
-                <a href = "/"><li><em className = "FIRST">FIRST </em> Robotics Competition</li></a>
-            </ul>
-        
-
-        
-        </div>
+       
        
         
     </div>

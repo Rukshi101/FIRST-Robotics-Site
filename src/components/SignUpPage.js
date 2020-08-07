@@ -91,10 +91,12 @@ we welcome you and promise to provide you with all the support, ideas, and encou
 
 </p>
 <p  className = "signuptext">
-Build your team with high-school aged students and a minimum of two adult coaches/mentors, who will need to complete Youth Protection Screening.  A meeting and build space will be required
+Build your team with high-school aged students and a minimum of two adult coaches/mentors, who will need to complete Youth Protection Screening.  A meeting and build space will be required.
+</p>
+<p className = "signuptext">
 Once registered into the program, the team will design, build, and program a robot to perform specific tasks in the season game against a field of competitors. Teams will then attend an event and compete alongside other teams at official FIRST events.
-
-             </p>
+</p>
+          
              </div>
              <div className = "signupvideo">
              <ReactPlayer className = "reactplayervid"
