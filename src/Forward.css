@@ -1477,7 +1477,10 @@ ONLINE HUBS .OnlineHubs {
   margin: 0;
 }
 
-
+.resourcebanktitle{
+  display:flex;
+  justify-content:center;
+}
 
 .commitpadding{
   padding-bottom:26px!important;
