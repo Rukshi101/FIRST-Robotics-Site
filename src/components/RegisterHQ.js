@@ -84,7 +84,7 @@ const fetchedSignUpTitle = [
         <div>
         <p className = "firsthqtext">NOTE: Before Registering with FIRST HQ, please <a href = "https://forward.firstroboticscanada.org/contact">Contact Us!</a></p>
             <p className = "firsthqtext">You’ll begin receiving communications from FIRST, along with a temporary team number in preparation for event registration in the fall.  Create a team roster link to submit with your registration.  (Please note that completing this stage of the process does not commit you to becoming a team.). Registering includes event registration and ordering the Kit of Parts. We’ve made it easy to pay your team’s fees with favorable terms, online payments, discounts for rookie teams, and more.</p>
-            <p className = "firsthqtext">Please click <a href = "https://my.firstinspires.org/AccountManager/Account/Register"> Here </a> to create a FIRST Account and register with FIRST HQ.</p>
+            <p className = "firsthqtext">Please click <a href = "https://my.firstinspires.org/AccountManager/Account/Register"> here </a> to create an account and register with FIRST HQ.</p>
         </div>
      
             </div>

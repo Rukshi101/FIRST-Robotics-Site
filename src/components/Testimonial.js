@@ -2,20 +2,27 @@ import React from 'react'
 
 import {Carousel} from '3d-react-carousal'
 let slides = [
-<div class = "testimonialSlide" alt = "1">
+    <div class = "testimonialSlide" alt = "1">
+    
+    
+    <h1>
+        "I hope we make good role models for these kids," she said. "I really want them to know that this is completely attainable for them. There's no reason for First Nations or Indigenous students [not] to be in STEM." "</h1>
+    <p>Mary Pangowish - (5672)</p>
+</div>,
+<div class = "testimonialSlide" alt = "2">
     
     
     <h1>"I am constantly problem-solving, double-checking, and thinking critically in order to get answers out of the politicians that come on the show. I also spend a lot of time networking with various sources -- something else that I first learned with 1305."</h1>
     <p>Alumni - Emily Haws (1305)</p>
 </div>,
 
-<div class = "testimonialSlide" alt = "2">
+<div class = "testimonialSlide" alt = "3">
     
     
     <h1>"I have been involved in coaching sports throughout my 30 year tenure as teacher at UMEI and have never experienced a culture of sharing and openness between teams like I have enjoyed with First Robotics."</h1>
     <p>Educator - John Fittler (8081)</p>
 </div>,
-<div class = "testimonialSlide" alt = "3">
+<div class = "testimonialSlide" alt = "4">
     
     
     <h1>
