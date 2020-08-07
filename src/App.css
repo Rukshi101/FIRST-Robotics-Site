@@ -1744,7 +1744,11 @@ color:white;
 
 .cardsection{
   padding-left:6%!important;
+}
 
+.cardsections{
+  padding-left:25px;
+  padding-right:25px;
 }
 
 .fonts{
