@@ -19,7 +19,7 @@ class Cards extends Component {
                         imgsrc = {require("../../images/ReverseLogo.png")}
                         title = "Sign Up"
         font = {<FontAwesomeIcon size = '6x' icon = "users"/>}
-        link={<Link className = "Nav_Link" to = "SignUp">Sign Up</Link>}/>
+        link={<Link className = "Nav_Link" to = "SignUp">Start a Team</Link>}/>
                     </div>
                 
                 <div className = "col-md-2 cardsections">

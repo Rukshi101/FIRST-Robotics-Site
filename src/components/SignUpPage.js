@@ -80,19 +80,18 @@ const fetchedSignUpTitle = [
               <BlackNavbar/>
               <div className = "SignUp">
               <hr className = "registrationhr" color = 'green' width = '400px'></hr>
-        <h1 className = "RegistrationTitle">Start your Team</h1>
+        <h1 className = "RegistrationTitle">Start a Team</h1>
               <div className = "flex-container">
              <div className = 'videosignup '>
              <p className = "signuptext">
              If you would like to start a FIRST Robotics Competition team in your area, 
-we welcome you and promise to provide you with all the support, ideas, and encouragement you need to succeed! Familiarize yourself with the FIRST Robotics Competition.
+we welcome you and promise to provide you with all the support, ideas, and encouragement you need to succeed! 
 </p>
 <p  className = "signuptext">
 
-FIRST ® Robotics Competition combines the excitement of sport with the rigors of science and technology. High school students use sophisticated technology to build and program industrial-size robots for a challenging field game. High School participants are eligible to apply for more than $80 million in scholarships from colleges, universities, and technical programs. 
 </p>
 <p  className = "signuptext">
-BUILD YOUR TEAM with high-school-aged students. You need at least 2 adult mentors, meeting and build space, team coaches and mentors must complete Youth Protection Screening.
+Build your team with high-school aged students and a minimum of two adult coaches/mentors, who will need to complete Youth Protection Screening.  A meeting and build space will be required
 Once registered into the program, the team will design, build, and program a robot to perform specific tasks in the season game against a field of competitors. Teams will then attend an event and compete alongside other teams at official FIRST events.
 
              </p>

@@ -71,7 +71,8 @@ state = {
       <BlackNavbar/>
     <div className="SignUp">
      <hr className = "registrationhr" color = 'green' width = '310px'></hr>
-        <h1 className = "RegistrationTitle">Registration</h1>
+        <h1 className = "RegistrationTitle">Register</h1>
+        <p className = "registerInfo">NOTE: Before Registering with FIRST HQ, please <a href = "https://forward.firstroboticscanada.org/contact">Contact Us!</a></p>
      <p className = "registerInfo">Registering your team’s information makes you a part of the huge FIRST Robotics Competition community. You’ll begin receiving communications from FIRST, along with a temporary team number in preparation for event registration in the fall.  Create a team roster link to submit with your registration.  (Please note that completing this stage of the process does not commit you to becoming a team.). Registering includes event registration and ordering the Kit of Parts. We’ve made it easy to pay your team’s fees with favorable terms, online payments, discounts for rookie teams, and more.
 </p>
 <p className = "registerInfo">Here are 4 steps that needs to be completed:</p>
@@ -81,8 +82,8 @@ state = {
              content ={this.state.fetchedRegistrationContent}/>
             
         </p>
-        <p className = "registerInfo">NOTE: Please<a href = "/"> Contact Us</a>  before Registering for FIRST HQ.</p>
-        <p className = 'registerInfo'>After registering, check out our resource bank for good resources on any aspect of the FIRST Robotics Competition.</p>
+
+
         <div className = "row">
 
           <a className = "viewSource" href= "google.com">View Resources</a>

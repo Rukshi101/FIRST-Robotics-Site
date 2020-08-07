@@ -158,12 +158,13 @@ class Home extends Component{
                 </section>
                 <OnlineHubs/>
                 <OnlineHubLinks/>
+                <Testimonials/>
                 <Commitment
                 commitment_title = {this.state.fetchedcommitment_titles}
                 content ={this.state.fetchedcontent}
                 /> 
                 
-                <Testimonials/>
+                
               
                 <Form/>
             <Footer/>

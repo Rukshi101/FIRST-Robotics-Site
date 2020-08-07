@@ -21,6 +21,13 @@ html{
   
 }
 
+.clickhere{
+  padding-top:20px;
+}
+
+.clickhere a{
+  color:red!important
+}
 .EventTable_Card{
   margin:12px 0;
   border:2px solid black;
@@ -1397,6 +1404,21 @@ color:white;
     max-width:300px;
 
 }
+.slider-single.proactive{
+  background-color:black;
+}
+
+
+.committtext{
+  color:silver!important;
+}
+
+.slider-single.preactivede{
+  background-color:black;
+}
+.commitvideo{
+  color:white;
+}
 .dog{
     object-fit:fill;
     max-width:100%;
@@ -1412,7 +1434,7 @@ color:white;
     text-align:center;
     /* background-color:#141413;
     background-image:radial-gradient(circle,rgba(255,255,255,.045) 24%,transparent 26%),radial-gradient(circle,rgba(255,255,255,.045) 24%,transparent 26%); */
-    background-color:#001a33!important;
+    background-color:black!important;
     padding-top:5%!important;
     padding-bottom:6%!important;
     margin:0;
@@ -2064,9 +2086,19 @@ color:white;
 
 
 .john{
-  width:500px;
+  width:650px;
   height:400px;
   border-radius:20px;
+  margin-top:0px!important;
+
+}
+
+.johndiv{
+  padding-right:160px;
+  margin-top:0px!important;
+
+
+
 }
 
 .contacttitle{

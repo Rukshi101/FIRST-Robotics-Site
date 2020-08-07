@@ -17,7 +17,7 @@ function Footer(props){
             <a href = "https://www.youtube.com/user/FIRSTRoboticsCanada"><FontAwesomeIcon color = 'red' icon = {['fab', 'youtube']}/></a>
             <a href = "https://www.instagram.com/firstroboticscanada/?hl=en"><FontAwesomeIcon color = 'white'icon = {['fab', 'instagram']}/></a>
             <a href = "https://twitter.com/canfirst?lang=en"><FontAwesomeIcon color = 'light-blue'icon = {['fab', 'twitter']}/></a>
-            <a href = "/"><FontAwesomeIcon color = 'blue' icon = {['fab', 'facebook']}/></a>
+            <a href = "https://www.facebook.com/FIRSTRoboticsCanada/"><FontAwesomeIcon color = 'blue' icon = {['fab', 'facebook']}/></a>
             
         </div>
         </div>
@@ -28,10 +28,10 @@ function Footer(props){
             <h2>Useful Links</h2>
             <div class = "border"></div>
             <ul>
-            <li> <Link className = "Nav_Link" to = "https://www.firstinspires.org/about/vision-and-mission">About Us</Link></li>
+            <li> <a href = "https://www.firstinspires.org/about/vision-and-mission">About Us</a></li>
                 <li> <Link className = "Nav_Link" to = "contact">Contact us</Link></li>
-                <a href = "https://login.firstinspires.org/core/login?signin=006bab27bfc8f0c69d3180bd8348fd05"><li><em className = "FIRST">FIRST </em> Dashboard</li></a>
-                <a href = "https://www.firstroboticscanada.org/get-involved/volunteer/"><li>Volunteer Dashboard</li></a>
+                <a href = "https://login.firstinspires.org/core/login?signin=eaa4b1506e8f0ce2ec043da7c8e19f68"><li><em className = "FIRST">FIRST </em> Dashboard</li></a>
+                <a href = "https://www.firstroboticscanada.org/get-involved/volunteer/"><li>Volunteer Information</li></a>
            
      
             </ul>
@@ -43,9 +43,8 @@ function Footer(props){
             <div class = "border"></div>
             <ul>
               
-                <a href = "/"><li>Resource Bank</li></a>
-                <a href = "/"><li>Contact Us</li></a>
-                <a href = "/"><li><em className = "FIRST">FIRST </em> Robotics Challenge</li></a>
+                <a href = "https://forward.firstroboticscanada.org/resources"><li>Resource Bank</li></a>
+           
             </ul>
             
         </div>

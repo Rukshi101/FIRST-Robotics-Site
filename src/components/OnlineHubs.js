@@ -7,7 +7,7 @@ function OnlineHubs(props){
     return(
         <div className = "hubs" id = 'hubsection'>
             
-    <h1 className = "hubtitle">Hubs and Online Help Centers</h1>
+    <h1 className = "hubtitle">Hubs and Online Help Centres</h1>
     <div class = "row ">
       
 

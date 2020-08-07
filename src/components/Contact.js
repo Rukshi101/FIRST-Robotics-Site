@@ -79,41 +79,19 @@ const fetchedContactName = [
               
               <hr className = "registrationhr" color = 'green' width = '310px'></hr>
               <h1 className = "contacttitle">Contact Us</h1>
-              <p className = 'registerInfo'>After familiarizing yourself with the FIRST Robotics Competition, you may contact us to get started!Then locate your region’s Regional Director or FIRST Senior Mentor. These people know the FIRST teams, participating schools, and FIRST-friendly businesses in your area. they can help you form a plan for getting your team funded, organized, and in touch with other teams in the area.  </p>
-               
-              <div className = "row">
-                 
-                 <div className = "col-md-6 cardsections">
-                 <img className = "john" src = {require("../images/john.jpg")} alt=""/>
-                 <ContactTitle
-               titles = {this.state.fetchedContactName}
-               content ={this.state.fetchedContactInfo}
-                />
-                 </div>
-             
-             <div className = "col-md-5 cardsections">
-                   
-      <div className = "card text-center seniorMentor">
-        <div className = "overflow">
+              <div className = "flex-container">
+                <div>
+              <p className = 'registerInfo'>First, familiarize yourself with the FIRST Robotics Competition. Contact our Regional Director, John Hobbins, by sending him an email at john.hobbins@firstroboticscanada.org. </p>
+      
           
-          <div className = "fonts">
-            <p></p>
-            </div>
-        </div>
-        <div className = "card-body text-dark">
-          <h4 className = "card-title"> <a className = 'seniormentora' href = "https://www.firstroboticscanada.org/about-us/staff/">Senior Mentors</a></h4>
-        
-       
-      </div>
-      </div>
-                 </div>
-           </div>
-                <div className = "resourceBackground">
+             <p className = "registerInfo"> Then reach out to our Senior mentors for advice in getting started. They will reach out to you to provide information, familiarize yourself with other FIRST teams, participating schools, and FIRST-friendly businesses in your area. They can also help you form a plan for getting your team funded, organized, and in touch with other teams in the area.</p>
+             </div>
+                <div className = "resourceBackground johndiv">
             
-                
+                <img className = "john" src = {require("../images/1310.jpg")} alt=""/>
                 </div>
 
-               
+                </div>
                
                 <Footer/>
             </div>
@@ -121,3 +99,20 @@ const fetchedContactName = [
         }
   }
 export default Contact
+
+
+// <ContactTitle
+// titles = {this.state.fetchedContactName}
+// content ={this.state.fetchedContactInfo}
+//  />
+{/* <div className = "col-md-6 cardsections">
+                   <div className = "johncard" >
+                   <img className = "john" src = {require("../images/john.jpg")} alt=""/>
+                   <div className = "johncard-body">
+                     <p className = "johncard-text">  
+                     John Hobbin    
+                 </p>
+                   </div>
+                   </div>
+           
+                 </div> */}
