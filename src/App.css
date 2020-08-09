@@ -273,7 +273,7 @@ background-image:linear-gradient(
 /* this z index represents the layers so this is 1st layer */
 }
 .rookiemaintitle{
-  padding-left:8%!important;
+  padding-left:7%!important;
   margin-bottom:0!important
 
 }
@@ -1405,16 +1405,23 @@ color:white;
 
 }
 .slider-single.proactive{
-  background-color:black;
+  background-color:black!important;
+}
+
+.testimonialSlide{
+  font-style: italic;
 }
 
 
 .committtext{
   color:silver!important;
 }
+.react-3d-carousel .slider-container .slider-content .slider-single.active{
+  background-color:black;
+}
 
 .slider-single.preactivede{
-  background-color:black;
+  background-color:black!important;
 }
 .commitvideo{
   color:white;
@@ -1817,7 +1824,10 @@ color:white;
   background-color:#141413!important;
   margin:20px;
   border-radius:20px;
-  padding:20px
+  padding:20px;
+  -webkit-box-shadow: 10px 10px 41px 18px rgba(0,43,255,1);
+  -moz-box-shadow: 10px 10px 41px 18px rgba(0,43,255,1);
+  box-shadow: 10px 10px 41px 18px rgba(0,43,255,1);
 
 
 }
@@ -1953,7 +1963,7 @@ color:white;
   margin-left:150px;
   display:flex;
   justify-content:left;
-  background-color:red;
+  background-color:blue;
   height:10px;
 }
 .abouthrs{

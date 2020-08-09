@@ -16,7 +16,7 @@ function AboutUs(props){
       
        </div>
        <div className>
-           <p className = "tools aboutforwarddesc"> <em className = "FIRST">FIRST </em>Forward Canada is a collection of progressive initiatives that are preparing the next generation for the future. From digital literacy to equity, diversity and inclusion initiatives, FIRST Forward Canada is all about propelling kids and youth forward.
+           <p className = "tools aboutforwarddesc"> <em className = "FIRST">FIRST </em>Forward Canada is a collection of progressive initiatives that are preparing the next generation for the future. From digital literacy to equity, diversity and inclusion initiatives, <em className = "FIRST">FIRST </em>  Forward Canada is all about propelling kids and youth forward.
 
 We must enable our youth to grow up to solve the world’s most pressing problems, be strong citizens, and build a brighter future together.
 

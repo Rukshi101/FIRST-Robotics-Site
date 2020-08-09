@@ -589,7 +589,7 @@ padding-right:110px;
 .forwardcommitment{
   font-size:40px!important;
   color:inherit!important;
-  background-color: #141414;
+  background-color:black;
 
 }
 video {
@@ -1113,6 +1113,13 @@ li i {
   transition: 0.5s;
 }
 
+.viewresource{
+  display:flex;
+  justify-content:right;
+  align-items:right;
+  text-align:right;
+
+}
 .container .row100 .inputBox {
   position: relative;
   width: 100%;
@@ -1122,7 +1129,7 @@ li i {
 .viewSource {
   align-items:right;
   justify-content:right!important;
-  margin-left:1320px;
+  margin-left:0;
   text-decoration:none;
   color:white;
   font-weight: bold;
@@ -1478,7 +1485,7 @@ ONLINE HUBS .OnlineHubs {
 }
 
 .resourcebanktitle{
-  display:flex;
+
   justify-content:center;
 }
 

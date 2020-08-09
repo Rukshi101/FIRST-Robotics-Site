@@ -8,7 +8,7 @@ import {Link} from 'react-router-dom'
 class Cards extends Component {
     render (){
         return(
-            <div className= "getStarteds">
+            <div className= "getStarteds" id= "getStarted">
                 <h1 className ="wow">JOIN THE LARGEST ROBOTICS COMPETITION IN CANADA</h1>
             <div className = "cardsection container-fluid d-flex justify-content-left">
            
@@ -59,7 +59,7 @@ class Cards extends Component {
                    imgsrc = {require("../../images/ReverseLogo.png")}
                    title = "Contact Us"
                    font = {<FontAwesomeIcon size = '6x' icon = "hands-helping"/>}
-                     link={< a href ="https://www.firstroboticscanada.org/hubs/">Visit FIRST Hubs</a>}/>
+                     link={< a href ="https://www.firstroboticscanada.org/hubs/">Visit <em className = "FIRST">FIRST </em>Hubs</a>}/>
               </div>
                 </div>
                 </div>

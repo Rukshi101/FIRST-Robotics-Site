@@ -12,7 +12,7 @@ function Form (props){
             <div className = "">
        <hr className = "forwardhr abouthr contacthr" width= "10%" height="2px"  color ="white"/>
        </div>
-            <p>Click <a href = "https://www.firstroboticscanada.org/">here</a> to learn more about FIRST Canada</p>
+            <p>Click <a href = "https://www.firstroboticscanada.org/">here</a> to learn more about <em className = "FIRST">FIRST </em>Canada</p>
           
            
             </div>

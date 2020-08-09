@@ -13,6 +13,7 @@ function EPTitle (props){
    return(
          
         <div className = "Commitment ResourceCards">
+            
             <h1 className = "ResourceTitle">
                 Electrical and Programming Resources
             </h1>

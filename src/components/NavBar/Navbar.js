@@ -31,7 +31,7 @@ const toolbar = props =>(
                     <li> <Link className = "Nav_Link" to = "contact">Contact Us</Link></li>
                     <li><a href = "https://www.youtube.com/user/FIRSTRoboticsCanada"><FontAwesomeIcon color = 'red' icon = {['fab', 'youtube']}/></a></li>
                     <li><a href = "https://www.instagram.com/firstroboticscanada/?hl=en"><FontAwesomeIcon color = 'white' icon = {['fab', 'instagram']}/></a></li>
-                    <li><a href = "https://twitter.com/canfirst?lang=en"><FontAwesomeIcon color = 'blue' icon = {['fab', 'twitter']}/></a></li>
+                    <li><a href = "https://twitter.com/canfirst?lang=en"><FontAwesomeIcon color = 'white' icon = {['fab', 'twitter']}/></a></li>
                     <li><a href = "https://www.facebook.com/FIRSTRoboticsCanada/"><FontAwesomeIcon color = 'blue' icon = {['fab', 'facebook']}/></a></li>
                     
                     

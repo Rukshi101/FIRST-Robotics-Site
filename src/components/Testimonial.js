@@ -19,7 +19,7 @@ let slides = [
 <div class = "testimonialSlide" alt = "3">
     
     
-    <h1>"I have been involved in coaching sports throughout my 30 year tenure as teacher at UMEI and have never experienced a culture of sharing and openness between teams like I have enjoyed with First Robotics."</h1>
+    <h1>"I have been involved in coaching sports throughout my 30 year tenure as teacher at UMEI and have never experienced a culture of sharing and openness between teams like I have enjoyed with <em className = "FIRST">FIRST </em>  Robotics."</h1>
     <p>Educator - John Fittler (8081)</p>
 </div>,
 <div class = "testimonialSlide" alt = "4">

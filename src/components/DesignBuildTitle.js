@@ -14,9 +14,13 @@ function DesignBuildTitle (props){
    return(
         
         <div className = "Commitment ResourceCards">
+            <div>
+            <hr className = "registrationhr" color = 'green' width = '310px'></hr>
+           
             <h1 className = "ResourceTitle">
                 Mechanical Design and Build
             </h1>
+            </div>
  {designtitle.map(title =>{
          const {id}= title
          console.log("id", id) 
