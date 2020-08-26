@@ -2,7 +2,7 @@ import React,{Component} from 'react'
 import '../App.css'
 import axios from 'axios';
 
-import Footer from './Footer'
+import Footer2 from './Footer copy'
 import '../App.css';
 
 import RegistrationTitle from './RegistrationTitle'
@@ -73,8 +73,10 @@ state = {
      <hr className = "registrationhr" color = 'green' width = '310px'></hr>
         <h1 className = "RegistrationTitle">Register</h1>
 
-     <p className = "registerInfo">Registering your team’s information makes you a part of the huge <em className = "FIRST">FIRST </em> Robotics Competition community. You’ll begin receiving communications from <em className = "FIRST">FIRST</em>, along with a temporary team number in preparation for event registration in the fall.  Create a team roster link to submit with your registration.  (Please note that completing this stage of the process does not commit you to becoming a team.). Registering includes event registration and ordering the Kit of Parts. We’ve made it easy to pay your team’s fees with favorable terms, online payments, discounts for rookie teams, and more.
+     <p className = "registerInfo">
+             
 </p>
+
 <p className = "registerInfo">Here are 4 steps that needs to be completed:</p>
         <div>
         <p>
@@ -88,7 +90,7 @@ state = {
        
     </div>
     
-        <Footer/>
+        <Footer2/>
 </div>
 
 
@@ -101,3 +103,4 @@ export default Resources
 {/* <div className = "viewresource col-md-12">
 <a className = "viewSource" href= "google.com">View Resources</a>
 </div> */}
+// Registering your team’s information makes you a part of the huge <em className = "FIRST">FIRST </em> Robotics Competition community. You’ll begin receiving communications from <em className = "FIRST">FIRST</em>, along with a temporary team number in preparation for event registration in the fall.  Create a team roster link to submit with your registration.  (Please note that completing this stage of the process does not commit you to becoming a team.). Registering includes event registration and ordering the Kit of Parts. We’ve made it easy to pay your team’s fees with favorable terms, online payments, discounts for rookie teams, and more.

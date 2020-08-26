@@ -3,10 +3,10 @@ import React from 'react'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import {Link} from 'react-router-dom'
-function Footer(props){
+function Footer2(props){
     return(
 
-<div class = "shifted-content-2 footer">
+<div class = "footer">
     <div class = "inner-footer">
         <div class = 'footer-items'>
             <img class = "logo" src = {require("../images/ReverseLogo.png")} alt=""/>
@@ -71,4 +71,4 @@ function Footer(props){
     )
 }
 
-export default Footer;
+export default Footer2;

@@ -8,6 +8,7 @@ function VideoTitle () {
 
 <div className = "App">
       <div className ='row cat titledesc'>
+          <div className = "forwardlandingvideocontents">
         <div className= 'col-md-12'>
     <h1 className = "title forwardTitle"><em className = "FIRST">FIRST </em> FORWARD CANADA </h1>
   
@@ -19,6 +20,7 @@ function VideoTitle () {
 </div>
 <div className = 'col-md-12'>
     <a href = "#projects" className = "forwardmainlink">VIEW OUR PROJECTS  <FontAwesomeIcon color = 'inherit ' icon = {['fa', 'arrow-right']}/></a>
+</div>
 </div>
 </div>
 <div className = "ParallaxVideo">

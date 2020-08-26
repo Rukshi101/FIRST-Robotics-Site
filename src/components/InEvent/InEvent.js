@@ -69,7 +69,7 @@ state = {
       <div className = "resourceBackground">
       <SideBar/>
  
-    <div className="h-100 Commitment ResourceCards p-4">
+    <div className="h-100 Commitment ResourceCards p-4 shifted-content-2">
         <p className="inevent ResourceTitle">In-Event Resources</p>
         <p>
             <InEventTitle

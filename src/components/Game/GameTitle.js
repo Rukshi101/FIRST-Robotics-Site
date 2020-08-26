@@ -12,7 +12,7 @@ function GameTitle (props){
 
    return(
          
-        <div className = "Commitment ResourceCards">
+        <div className = "Commitment ResourceCards shifted-content-2">
               <h1 className = "ResourceTitle">
                 Challenge Resources
             </h1>

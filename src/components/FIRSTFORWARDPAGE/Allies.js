@@ -17,7 +17,7 @@ function Allies(props){
  </p>
      
        </div>
-       <div class="col-sm-6 teamBins">
+       <div class="col-sm-6 allieimagebin ">
          <img className = "alliesimage" src = {require("./Allies.jpg")} alt=""/>
        </div>
        </div>

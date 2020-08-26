@@ -79,12 +79,13 @@ const fetchedSignUpTitle = [
             <div>
               <BlackNavbar/>
               <div className = "SignUp">
-              <hr className = "registrationhr" color = 'green' width = '400px'></hr>
-        <h1 className = "RegistrationTitle">Start a Team</h1>
+            
               <div className = "flex-container">
              <div className = 'videosignup '>
+             <hr className = "registrationhr startaTeam" color = 'green' width = '400px'></hr>
+        <h1 className = "RegistrationTitle startaTeam">Start a Team</h1>
              <p className = "signuptext">
-             If you would like to start a FIRST Robotics Competition team in your area, 
+             If you would like to start a <em className = "FIRST">FIRST </em> Robotics Competition team in your area, 
 we welcome you and promise to provide you with all the support, ideas, and encouragement you need to succeed! 
 </p>
 <p  className = "signuptext">
@@ -94,7 +95,7 @@ we welcome you and promise to provide you with all the support, ideas, and encou
 Build your team with high-school aged students and a minimum of two adult coaches/mentors, who will need to complete Youth Protection Screening.  A meeting and build space will be required.
 </p>
 <p className = "signuptext">
-Once registered into the program, the team will design, build, and program a robot to perform specific tasks in the season game against a field of competitors. Teams will then attend an event and compete alongside other teams at official FIRST events.
+To help you get started, follow these steps and once registered into the program, your team will design, build, and program a robot to perform specific tasks in the season game against a field of competitors. Teams will then attend an event and compete alongside other teams at official <em className = "FIRST">FIRST </em> events.
 </p>
           
              </div>
@@ -106,8 +107,11 @@ Once registered into the program, the team will design, build, and program a rob
              </div>
              <div className = " signupimage col-md-12">
              <img className = "signupimageimage" src = {require("../images/realsignup.PNG")} alt=""/>
+           
              </div>
+             <p className = "nextstep"><a href = "">Register</a></p>
             </div>
+           
             <Footer/>
             </div>
         )

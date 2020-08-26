@@ -68,12 +68,13 @@ state = {
       <div>
         <SideBar/>
 
-    <div className="resourcespage p-4 shifted-content">
+    <div className="resourcespage p-4 shifted-content-2">
       <div className = "resourcebanktitle">
-        <p className="h1 resourcestitle">Welcome to the <em className = "FIRST">FIRST </em>Resource Bank!</p>
+        <p className="h1 resourcestitle">FIRST Resource Bank!</p>
         <p className = "resourcesdescription">
-           Click the hamburger icon on the top left to get started.
+        <span className="mif-arrow-left icon mif-7x"></span>
         </p>
+        
         </div>
         <Footer/>
     </div>

@@ -17,7 +17,7 @@ const toolbar = props =>(
     <header className = "navbarss">
         <nav id = "nav" className = "navbarss_nav">
             <div className = "navbarss_nav-button"><DrawerToggleButton click ={props.drawerClickHandler}/></div>
-                <div className = "navbarss_logo">
+            <div className = "forwardlogobin">
                     <a href = "/"> <img className = "nav_Logo" src = {require("../../images/ReverseLogo.png")} alt=""/></a>
                 </div>
           <div className = "spacer"/>

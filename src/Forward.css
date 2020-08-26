@@ -1,6 +1,7 @@
 .firstforward {
   width: 230px;
   height: 45px;
+
 }
 
 .firstforwardtitle {
@@ -15,10 +16,14 @@
   color:lightgrey!important
 }
 
+.aboutforward{
+  padding-left:9%!important;
+}
+
 .CommitmentBin {
   text-align: center;
   padding-right: 150px;
-  padding-left: 150px;
+
   background-color: black;
   color: white;
   
@@ -30,6 +35,9 @@
   font-family: "Montserrat", sans-serif;
   color:lightgrey;
   
+}
+.forwardlandingvideocontents{
+  padding-left:8%;
 }
 .commtimentLink{
   text-align:left!important;
@@ -51,7 +59,7 @@
 }
 
 .commitlink{
-  padding-left:33%;
+
 }
 .CommitmentTitle{
   font-size:30px;
@@ -236,6 +244,10 @@ padding-right:110px;
 
     padding-bottom: 20px;
   }
+  .projects{
+padding-bottom:22
+  }
+ 
   .ImpactSection {
     margin-bottom: 20px;
     margin-right: 0;
@@ -250,8 +262,37 @@ padding-right:110px;
 
   height: 400px !important;
 }
+@media (max-width: 1400px) {
+  .teamBins {
+    padding-top:130px!important;
+  }
+}
+@media (max-width: 1400px) {
+  .videosignup {
+    width:100%;
+  }
+}
+@media (max-width: 1400px) {
+  .allieimagebin {
+    margin-top:100px!important;
+  }
+}
+@media (max-width: 576px) {
+  .teamBins {
+    padding-left:10%!important;
+    padding-top:20px!important;
+  }
+}
+@media (max-width: 576px) {
+  .allieimagebin {
+    margin-top:0!important;
+    padding-left:20px!important;
+    margin-left:0px!important;
+    padding-top:0px!important;
+  }
+}
 .newhubtitle {
-  padding-left: 160px!important;
+
   text-align: center;
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
@@ -297,7 +338,7 @@ padding-right:110px;
 }
 
 .alliesimage {
-  width: 570px !important;
+  width: 100% !important;
   margin-left:50px;
   height: 400px !important;
   margin-top:80px!important;
@@ -308,7 +349,7 @@ padding-right:110px;
   
 }
 .allies{
-  padding-left:10%;
+  padding-left:8%;
   padding-right:15%;
   background-color: #001a33!important;
   padding-bottom:40px;
@@ -547,11 +588,12 @@ padding-right:110px;
 }
 .forwardmainlink{
   color:rgb(0, 204, 255)!important;
-  padding-left:200px;
+
   font-size:20px;
   font-weight:700!important;
 
   font-family: "Montserrat", sans-serif;
+
   
 }
 .contactlink{
@@ -598,7 +640,7 @@ video {
 .maintitledesc{
   font-size:24px!important;
   color:lightgrey;
-  padding-left:200px;
+ 
   text-align:left;
   font-weight:500!important;
   font-family: "Montserrat", sans-serif;
@@ -826,12 +868,12 @@ hr {
 }
 
 .usefullinks{
-  padding-left:60px!important;
+  
 }
 
 .videosignup{
-  padding-left:8%!important;
-  padding-right:100px!important;
+  padding-left:7%!important;
+  padding-right:0px!important;
 }
 
 .signupvideo{
@@ -849,17 +891,19 @@ hr {
 }
 .signuptext{
   font-weight:600;
-  font-size:18px;
+  font-size:22px;
   font-family: "Montserrat", sans-serif;
 }
 .signupimage{
   display:flex;
   justify-content:center;
+  padding-bottom:20px;
+  padding-top:20px;
  
 }
 .signupimageimage{
-  max-width:84%;
-  width:84%;
+  max-width:86%;
+  width:86%;
 }
 .reactplayervid{
   height:400px!important;
@@ -867,13 +911,27 @@ hr {
 .flex-container{
   display:flex;
 }
+.flex-containercommit{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  padding-top:100px;
+}
+.flex-containercommit > div{
+  width:50%!important;
 
+  text-align:center;
+
+}
 .flex-container >div{
   margin:10px;
 }
-
+.programs{
+ 
+}
 .inner-footer {
-  width: 82%;
+  width: 88%;
   margin: auto;
   padding: 30px;
   display: flex;
@@ -1002,13 +1060,13 @@ li i {
   text-align: center;
 }
 .logo {
-  width: 300px;
+  width: 100%;
   height: 100px;
   padding-bottom: 20px;
 }
 
 .forwardlogobin{
-  padding-left:1%;
+  padding-left:7%;
 }
 @media screen and (max-width: 1085px) {
   .footer-items {
@@ -1021,6 +1079,16 @@ li i {
   }
 }
 
+.forwardcommitbin{
+  text-align: center;
+  
+
+  background-color: black;
+  color: white;
+  
+  padding-top:70px;
+
+}
 /* commitment******************* */
 .bg-modal {
   width: 100%;
@@ -1375,7 +1443,7 @@ ONLINE HUBS .OnlineHubs {
 }
 .tools {
   padding: 20px;
-  padding-left:150px!important;
+
   color: white;
   padding-right: 20px;
   font-family: "Montserrat", sans-serif;

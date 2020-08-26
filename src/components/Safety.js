@@ -15,7 +15,7 @@ function Safety (props){
 
    return(
          
-    <div className = "Commitment ResourceCards">
+    <div className = "Commitment ResourceCards shifted-content-2">
     <h1 className = "ResourceTitle">
         Safety
     </h1>

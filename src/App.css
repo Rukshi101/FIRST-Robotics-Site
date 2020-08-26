@@ -114,6 +114,10 @@ html{
   color:white;
   padding-top:3.5rem;
   text-align:center;
+  padding-top:100px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight:700;
+  font-size:36px!important;
 }
 .Commitment h1{
 
@@ -183,7 +187,23 @@ html{
 
 }
 
+
+.nextstep{
+  color:white!important;
+  text-decoration:none!important;
+  padding:0;
+  margin:0;
+  text-align:right;
+  padding-right:8%;
+  font-weight:700;
+  font-family: 'Montserrat', sans-serif;
+  font-size:24px;
+}
+.nextstep :hover{
+  color:blue;
+}
 /* .ParallaxVideo h1{
+
   color:white;
   font-size:76px;
   font-weight:700;
@@ -197,7 +217,10 @@ html{
   font-size:24px;
   padding:25px;
 }
-
+.contactusdesc{
+  padding-left:6%;
+  font-weight:600;
+}
 .parallax{
   background:url('/images/video.mp4');
   background-size:cover;
@@ -231,8 +254,8 @@ html{
   font-family: 'Montserrat', sans-serif;
   padding-top:200px!important;
   color:white;
-  padding:20px;
-  margin:15px;
+ 
+ 
   /* font-style:italic; */
   z-index:1!important;
   display:block;
@@ -274,7 +297,8 @@ background-image:linear-gradient(
 }
 .rookiemaintitle{
   padding-left:7%!important;
-  margin-bottom:0!important
+  margin-bottom:0!important;
+  font-size:5rem;
 
 }
 @media (max-width:400px){
@@ -307,7 +331,7 @@ background-image:linear-gradient(
 }
 
 .rookiesub{
-  padding-left:10%!important;
+  padding-left:8.5%!important;
   padding-top:0!important;
   color:lightgrey;
   font-weight:500!important;
@@ -365,18 +389,23 @@ padding-left:10%!important;
     height:100%;
     align-items:center;
     padding:0 1rem;
-    padding-left:8rem!important;
+    padding-right:4%!important;
+
   
   }
   .app-bar{
     height:70px;
+  }
+
+  .getStartedlink{
+    padding-left:8.5%!important;
   }
   
   .navbarss_logo a{
     color:white;
     text-decoration:none;
     font-size:1.5rem;
-    margin-left:20px!important;
+    margin-left:60%!important;
   }
 
   .navbarss_nav-items a {
@@ -616,11 +645,41 @@ hr{
 
 }
 
-@media(min-width:769px){
+@media(max-width:1400px){
   .cardsections{
-  width:100%
+    width:100%!important;
   }
 
+}
+
+@media(max-width:1400px){
+  .cardsections{
+    width:100%!important;
+  }
+  .flex-container{
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    padding-right:140px;
+  }
+  .signupvideo{
+    padding-left:7%!important;
+  }
+  .videosignup{
+    padding-right:0!important;
+  }
+}
+@media (max-width:900px){
+ .signupvideo{
+   padding-left:400px!important;
+ }
+ .videosignup{
+   padding-right:0!important;
+ }
+  }
+
+.signupvideo{
+  padding-top:4%;
 }
 ul li{
 
@@ -1275,7 +1334,7 @@ input[type='submit']{
   }
   .hubdesc{
     color:silver!important;
-    
+    padding-left:9%!important;
   }
   .hubdesc p{
     font-size:44px!important;
@@ -1510,7 +1569,7 @@ color:white;
   text-align:left!important;
   padding-bottom:0!important;
   margin-bottom:0!important;
-  padding-left:180px;
+
   padding-top:280px!important;
 }
 .titles{
@@ -1754,8 +1813,10 @@ color:white;
 }
 
 .cardsections{
-  padding-left:25px;
-  padding-right:25px;
+  padding-left:0px!important;
+  padding-right:0px!important;
+  margin:0!important;
+  width:20%!important;
 }
 
 .fonts{
@@ -1814,6 +1875,7 @@ color:white;
 .SignUpTitle{
   
   width:20%;
+  height:15vw!important;
   color:white;
   font-family: 'Montserrat', sans-serif!important;
   margin:0;
@@ -1838,12 +1900,17 @@ color:white;
 .SignUp h1{
   font-family: 'Montserrat', sans-serif!important;
 }
+
+.startaTeam{
+padding-left:0!important;
+margin:0!important;
+}
 .registerInfo{
   text-align:left;
   font-family: 'Montserrat', sans-serif!important;
   margin-right:150px;
-  padding-left:50px;
-  margin-left:100px;
+  padding-left:10px;
+  margin-left:10px;
   font-size:22px;
   line-height:1.4;
   color:white;
@@ -1879,7 +1946,7 @@ color:white;
   margin-bottom:0;
 }
 .SignUpHeaders{
-  font-size:30px;
+  font-size:1.5rem;
   padding-top:70px;
 
 }
@@ -1969,7 +2036,7 @@ color:white;
 .abouthrs{
 
   padding-bottom:0;
-  margin-left:160px!important;
+ 
   margin:0;
   margin-top:100px;
   height:7px!important;
@@ -1998,14 +2065,19 @@ color:white;
   padding-left:150px;
 }
 .sidebar{
-  height:900pxregistrationhr!important;
+  height:100vh!important;
 }
 
 .sidebar-menu{
   background-color:black!important;
   color:white!important;
+  height:100vh!important;
+  padding-top:4%!important;
 }
-
+.sidebar-menu li{
+  padding-left:20px;
+  margin-right:20px;
+}
 .sidebar-menu a{
   font-weight:700;
   font-family: 'Montserrat', sans-serif;
@@ -2033,7 +2105,8 @@ color:white;
   color:white;
   font-size:36px;
   text-align:left!important;
-  padding-left:150px;
+  padding-left:20px;
+
 }
 .Registration{
   width:100%;
@@ -2043,10 +2116,10 @@ color:white;
 
 .resourcespage{
   margin:0!important;
- 
+ width:100vw;
   margin-top:70px;
   text-align:left;
-  background-color:#141413;
+  background-color:#141413!important;
   color:white;
   padding-top:10%!important;
   padding-bottom:10%!important;
@@ -2064,8 +2137,12 @@ color:white;
   font-family: 'Montserrat', sans-serif;
   font-size:5rem!important;
   font-weight:700;
+  display:flex;
+  justify-content:center;
   padding-top:100px;
+  
 }
+
 
 .sidenav{
   padding-top:0!important;
@@ -2074,6 +2151,16 @@ color:white;
   
 }
 
+.resourcebanktitle{
+  padding-top:10%
+}
+.resourcebanksidebar{
+  font-size:22px!important;
+  color:white!important;
+  padding-left:10px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight:700;
+}
 
 .resourcesdescription{
   padding:0!important;

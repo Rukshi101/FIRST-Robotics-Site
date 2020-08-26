@@ -79,12 +79,12 @@ const fetchedContactName = [
               
               <hr className = "registrationhr" color = 'green' width = '310px'></hr>
               <h1 className = "contacttitle">Contact Us</h1>
-              <div className = "flex-container">
+              <div className = "flex-container contactusdesc">
                 <div>
-              <p className = 'registerInfo'>First, familiarize yourself with the <em className = "FIRST">FIRST </em>Robotics Competition. Contact our Regional Director, John Hobbins, by sending him an email at john.hobbins@firstroboticscanada.org. </p>
+              <p className = 'registerInfo'> Contact our Regional Director, John Hobbins, by sending him an email at john.hobbins@firstroboticscanada.org. </p>
       
           
-             <p className = "registerInfo"> Then reach out to our Senior mentors for advice in getting started. They will reach out to you to provide information, familiarize yourself with other <em className = "FIRST">FIRST </em>teams, participating schools, and <em className = "FIRST">FIRST </em> -friendly businesses in your area. They can also help you form a plan for getting your team funded, organized, and in touch with other teams in the area.</p>
+             <p className = "registerInfo"> Then reach out to our <a href = "https://www.firstroboticscanada.org/about-us/staff/"> Senior mentors </a> for advice in getting started. They will reach out to you to provide information, familiarize yourself with other <em className = "FIRST">FIRST </em>teams, participating schools, and <em className = "FIRST">FIRST </em> -friendly businesses in your area. They can also help you form a plan for getting your team funded, organized, and in touch with other teams in the area.</p>
              </div>
                 <div className = "resourceBackground johndiv">
             

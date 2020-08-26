@@ -9,7 +9,7 @@ function AboutUs(props){
     <div class = "row ">
        
 
-       <div class = "col-sm-7 hubtext " id='title'>
+       <div class = "col-sm-7 hubtext aboutforward " id='title'>
        <hr className = " abouthrs " width= "70%" height="2px"  color ="white"/>
        <h1 className = " firstforwardtitle newhubtitle">About <em className = "FIRST">FIRST </em>FORWARD CANADA</h1>
        <div className = "hrposition">

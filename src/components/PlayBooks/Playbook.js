@@ -70,7 +70,7 @@ state = {
       <div className = "resourceBackground">
       <SideBar/>
  
-    <div className="h-100 p-4">
+    <div className="h-100 p-4 shifted-content-2">
       
         <p>
             <PlaybookTitle
