@@ -1,5 +1,9 @@
 import React from 'react'
 
+import {Link} from 'react-router-dom';
+
+
+import CanCode from './CanCode';
 class ProjectLink extends React.Component{
     state={
         show:true
@@ -15,13 +19,13 @@ class ProjectLink extends React.Component{
                 <div className = "ProjectBin">
                 <img className = "projectimage" src = {require("./CanCode.jpg")} alt=""/>
                 <div className = "overlay">
-                    <div className = "text"><a href = 'https://www.firstroboticscanada.org/learn/'>Can Code</a></div>
+                    <div className = "text"><Link className = "Nav_Link" to = "CanCode">CanCode</Link></div>
                 </div>
                     </div>
                 <div className = "ProjectBin">
                 <img className = "projectimage" src = {require("./Diversity.png")} alt=""/>
                 <div className = "overlay">
-                    <div className = "text"><a href = 'https://www.firstroboticscanada.org/learn/'>Diversity</a></div>
+                    <div className = "text"><Link className = "Nav_Link" to = "CanCode">Diversity</Link></div>
                 </div>
                 </div>
                 <div className = "ProjectBin">
@@ -47,7 +51,7 @@ class ProjectLink extends React.Component{
                 <div className = "ProjectBin">
                 <img className = "projectimage" src = {require("./HollandBloorView.jpg")} alt=""/>
                 <div className = "overlay">
-                    <div className = "text">Holland Bloorview</div>
+                    <div className = "text"><a href = 'https://hollandbloorview.ca/services/programs-services/robotics'>Holland Bloorview</a></div>
                 </div>
                 </div>
                 <div className = "ProjectBin">

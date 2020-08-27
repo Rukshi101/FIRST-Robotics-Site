@@ -311,6 +311,14 @@ padding-bottom:22
   -moz-box-shadow:10px 10px 5px 0px rgba(0,0,0,0.75);
   box-shadow:10px 10px 5px 0px rgba(0,0,0,0.75);
 }
+.projectPageimage{
+  width:90% !important;
+  height: 90% !important;
+  border-radius:10px;
+  -webkit-box-shadow:10px 10px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow:10px 10px 5px 0px rgba(0,0,0,0.75);
+  box-shadow:10px 10px 5px 0px rgba(0,0,0,0.75);
+}
 .projectdesc{
   text-align:left!important;
   font-family: "Montserrat", sans-serif;
@@ -879,7 +887,10 @@ hr {
 .signupvideo{
   padding-right:150px;
 }
-
+.imageSide{
+  padding-top:5%;
+  padding-left:5%;
+}
 
 .firsthqtext{
   padding-left:9%;

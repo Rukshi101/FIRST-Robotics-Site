@@ -77,6 +77,11 @@ import Registration from "./components/Registration";
 import Contact from "./components/Contact";
 import FirstSteps from "./components/FirstSteps";
 import RegistrationHQ from './components/RegisterHQ'
+import CanCode from './components/FIRSTFORWARDPAGE/CanCode'
+import Diversity from './components/FIRSTFORWARDPAGE/Diversity'
+import Hospitals from './components/FIRSTFORWARDPAGE/Hospitals'
+import WomanInStem from './components/FIRSTFORWARDPAGE/WomanInStemPage'
+import LibrariesPage from './components/FIRSTFORWARDPAGE/LibrariesPage'
 import ScrollToTop from "./components/ScrollToTop";
 // import ProjectLinkSection from './components/FIRSTFORWARDPAGE/ProjectLinkSection'
 library.add(
@@ -165,6 +170,11 @@ class App extends Component {
             <Route path="/registerHQ" component={RegistrationHQ} />
             <Route path="/contact" component={Contact} />
             <Route path="/firststeps" component={FirstSteps} />
+            <Route path = "/CanCode" component = {CanCode}/>
+            <Route path = "/Diversity" component = {Diversity}/>
+            <Route path = "/Hospitals" component = {Hospitals}/>
+            <Route path = "/Libraries" component = {LibrariesPage}/>
+            <Route path = "/WomanInStem" component = {WomanInStem}/>
             <Route
               path="/ElectricalProgramming"
               component={ElectricalProgramming}
