@@ -902,7 +902,7 @@ background: linear-gradient(top, #8f6B29, #FDE08D, #DF9F28);
 .footer{
   width:100%;
   background:black;
-  margin-left:0;
+  margin-left:0!important;
   
   display:inline-block!important;
 }
