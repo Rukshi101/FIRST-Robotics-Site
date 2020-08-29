@@ -83,15 +83,16 @@ const fetchedSignUpTitle = [
               <div className = "flex-container">
              <div className = 'videosignup '>
              <hr className = "registrationhr startaTeam" color = 'green' width = '400px'></hr>
-        <h1 className = "RegistrationTitle startaTeam">CanCode</h1>
+        <h1 className = "RegistrationTitle startaTeam">Women In STEM</h1>
              <p className = "signuptext">
-             FIRST Robotics Canada is on a mission! We are on a mission to educate even more kids and youth about coding
-and programming. Thanks to CanCode funding, FIRST is embarking on some exciting new initiatives to get
-students engaged in coding.
+             More hospitals are engaging are helping kids with disabilities engage with math and science in an very unique way
+using LEGO robotics kits to introduce engineering concepts to kids who might not get the chance otherwise:
+building their very own robots, then showcasing and presenting them for robot supremacy. The program opens
+new opportunities for kids to participate in a ground-breaking robotic experience. This program provides an
+opportunity to develop and re
 </p>
 <p  className = "signuptext">
-Check out our coding booth at FIRST Robotics Competition events and check out some of our partners we’re
-working with on some cool programs!
+Below are some details required if you are interested in connecting with your local community hospitals.
 </p>
 <p  className = "signuptext">
 Here are some of our incredible CanCode initiatives:

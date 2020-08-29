@@ -17,7 +17,7 @@ function StepTitle (props){
             <h1 className = "ResourceTitle">
                 Rookie Resources
             </h1>
-            <p className=  'registerInfo'>We know your first season might be a bit tough considering you've never done this before. That's why we're offering you everything you need to get started.</p>
+            <p className=  'registerInfo firststepdesc'>We know your first season might be a bit tough considering you've never done this before. That's why we're offering you everything you need to get started.</p>
  {HeaderTitle.map(title =>{
          const {id}= title
          console.log("id", id) 

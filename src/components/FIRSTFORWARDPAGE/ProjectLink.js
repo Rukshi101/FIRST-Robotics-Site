@@ -25,7 +25,7 @@ class ProjectLink extends React.Component{
                 <div className = "ProjectBin">
                 <img className = "projectimage" src = {require("./Diversity.png")} alt=""/>
                 <div className = "overlay">
-                    <div className = "text"><Link className = "Nav_Link" to = "CanCode">Diversity</Link></div>
+                    <div className = "text"><Link className = "Nav_Link" to = "Diversity">Diversity</Link></div>
                 </div>
                 </div>
                 <div className = "ProjectBin">
@@ -45,7 +45,7 @@ class ProjectLink extends React.Component{
               <div className = "ProjectBin">
                 <img className = "projectimage" src = {require("./WomenStem.png")} alt=""/>
                 <div className = "overlay">
-                    <div className = "text">Woman in STEM</div>
+                    <div className = "text"><Link className = "Nav_Link" to ="WomanInStem">Woman in STEM</Link></div>
                 </div>
                     </div>
                 <div className = "ProjectBin">
@@ -57,13 +57,13 @@ class ProjectLink extends React.Component{
                 <div className = "ProjectBin">
                 <img className = "projectimage" src = {require("./Libraries.jpg")} alt=""/>
                 <div className = "overlay">
-                    <div className = "text">Libraries</div>
+                    <div className = "text"><Link className = "Nav_Link" to = "Libraries">Libraries</Link></div>
                 </div>
                 </div>
                 <div className = "ProjectBin">
                 <img className = "projectimage" src = {require("./hospitals.png")} alt=""/>
                 <div className = "overlay">
-                    <div className = "text">Hospitals</div>
+                    <div className = "text"><Link className = "Nav_Link" to = "Hospitals">Hospitals</Link></div>
                 </div>
               </div>
                 </div>

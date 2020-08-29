@@ -8,7 +8,7 @@ function Commitment (props){
         <div className = "hubs" id = 'hubsection'>
             
     <h1 className = "hubtitle commitpadding">Equity, Diversity, and Inclusion</h1>
-    <div class = "row ">
+ 
       
     <div className = "flex-container">
              <div className = 'videosignup '>
@@ -20,13 +20,12 @@ function Commitment (props){
               and our <a href = "https://forward.firstroboticscanada.org/#projects">Projects</a>.</p>
              </div>
              <div className = "signupvideo">
-             <ReactPlayer className = "reactplayervid"
+             <ReactPlayer className = "reactplayervid edivideo"
                url = "https://www.youtube.com/watch?v=Ud2H7UUUR94"/>
              </div>
 
              </div>
 
-       </div>
     </div>
 )
     }

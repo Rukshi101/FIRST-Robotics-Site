@@ -89,8 +89,11 @@ state = {
         </div>
        
     </div>
-    
+    <div className = "extrapadding">
+
+       </div>
         <Footer2/>
+        
 </div>
 
 
