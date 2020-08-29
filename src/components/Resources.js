@@ -76,9 +76,9 @@ state = {
         </p>
         
         </div>
-        <Footer/>
+     
     </div>
-  
+    <Footer/>
 </div>
 
     )
