@@ -885,6 +885,7 @@ background: linear-gradient(top, #8f6B29, #FDE08D, #DF9F28);
 .footerleft{
   
   padding-left:20%!important;
+  width:100vw!important;
 }
 
 .body-content{
