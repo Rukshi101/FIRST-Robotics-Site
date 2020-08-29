@@ -1814,6 +1814,7 @@ color:white;
 .bin{}
 .card{
   width:210px;
+  margin-left:80px!important;
   height:310px;
   margin:0;
   background-color:black!important;
