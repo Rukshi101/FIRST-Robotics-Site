@@ -882,6 +882,10 @@ background: linear-gradient(top, #8f6B29, #FDE08D, #DF9F28);
   font-family:sans-serif;
   
 }
+.footerleft{
+  
+  padding-left:20%!important;
+}
 
 .body-content{
   width:100%;
@@ -2089,7 +2093,7 @@ margin:0!important;
 .sidebar-menu{
   background-color:black!important;
   color:white!important;
-  height:2000px!important;
+  height:100vh!important;
   padding-top:4%!important;
 }
 .sidebar-menu li{
@@ -2133,7 +2137,7 @@ color:white;
 }
 
 .resourcespage{
-  height:100vh!important;
+  height:80vh!important;
  width:100vw;
   margin-top:0px;
   text-align:left;

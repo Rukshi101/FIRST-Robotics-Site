@@ -2,7 +2,7 @@ import React,{Component} from 'react'
 import '../App.css'
 import axios from 'axios';
 import SideBar from './SideBar'
-import Footer from './Footer'
+import Footer3 from './Footer3'
 import '../App.css';
 
 const fetchedSafetyTitle = [
@@ -78,7 +78,7 @@ state = {
         </div>
      
     </div>
-    <Footer/>
+    <Footer3/>
 </div>
 
     )
