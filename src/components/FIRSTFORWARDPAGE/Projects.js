@@ -22,7 +22,7 @@ function Project(props){
 
 We must enable our youth to grow up to solve the world’s most pressing problems, be strong citizens, and build a brighter future together.
  </p>
- <FontAwesomeIcon size = '7x' color="white" icon = "arrow-down"/>
+ <FontAwesomeIcon className = "arrowdown" size = '7x' color="white" icon = "arrow-down"/>
  </div>
        </div>
     </div>

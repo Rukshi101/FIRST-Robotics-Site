@@ -5,8 +5,9 @@ import '../App.css'
 
 import BlackNavbar from '../components//BlackNavbar'
 import Footer from './Footer';
-
+import SideDrawerRookies from '../components/sideDrawerRookies'
 import ReactPlayer from 'react-player'
+import Backdrop from './Backdrop/Backdrop.js';
 const fetchedSignUpTitle = [
     {
       id:1,name:"Contact Us"
@@ -41,8 +42,7 @@ const fetchedSignUpTitle = [
     state={
       fetchedSignUpTitle,
       fetchedSignUpcontent,
-      sideDrawerOpen:false,
-    
+      sideDrawerOpen:false
   
     }
   
@@ -75,14 +75,25 @@ const fetchedSignUpTitle = [
       this.setState({fetchedSignUpTitle,fetchedSignUpcontent})
     }
     render(){
+      
+      let backdrop;
+
+
+      if (this.state.sideDrawerOpen){
+       
+        backdrop = <Backdrop click ={this.backdropClickHandler}/>;
+      }
+     
         return(
             <div>
-              <BlackNavbar/>
+       <BlackNavbar drawerClickHandler= {this.drawerToggleClickHandler} />
+      <SideDrawerRookies show = {this.state.sideDrawerOpen}/>
+        {backdrop} 
               <div className = "SignUp">
             
               <div className = "flex-container">
              <div className = 'videosignup '>
-             <hr className = "registrationhr startaTeam" color = 'green' width = '400px'></hr>
+             <hr className = "registrationhr startaTeam" color = 'green' height = "10px" width = "80%"></hr>
         <h1 className = "RegistrationTitle startaTeam">Start a Team</h1>
              <p className = "signuptext">
              If you would like to start a <em className = "FIRST">FIRST </em> Robotics Competition team in your area, 
@@ -100,7 +111,7 @@ To help you get started, follow these steps and once registered into the program
           
              </div>
              <div className = "signupvideo">
-             <ReactPlayer className = "reactplayervid"
+             <ReactPlayer className = "reactplayervid signupvid"
                url = "https://www.youtube.com/watch?time_continue=2&v=wSA6InzFAZE"/>
              </div>
 

@@ -129,6 +129,12 @@ class App extends Component {
     sideDrawerOpen: false,
   };
 
+  regdrawertoggleclickhandler = ()=>{
+    this.setState((prevState) => {
+      return { sideDrawerOpen: !prevState.sideDrawerOpen };
+    });
+  };
+
   drawerToggleClickHandler = () => {
     this.setState((prevState) => {
       return { sideDrawerOpen: !prevState.sideDrawerOpen };

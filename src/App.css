@@ -187,7 +187,13 @@ html{
 
 }
 
-
+.extraspace{
+  height:14vh!important;
+  background-color:#141413!important;
+  padding-top:200!important;
+  width:100%;
+  display:inline-block;
+}
 .nextstep{
   color:white!important;
   text-decoration:none!important;
@@ -220,6 +226,43 @@ html{
 .contactusdesc{
   padding-left:6%;
   font-weight:600;
+}
+
+@media (min-width:1100px){
+  .SignUpHeaders{
+    padding-top:20%!important;
+    font-size:1.8rem!important;
+  }
+
+}
+@media (max-width:600px){
+  .SignUpTitle{
+    width:90%!important;
+
+  }
+  .registrationhr{
+    margin-left:8%!important;
+  }
+  .RegistrationTitle{
+    padding-left:8%!important;
+  }
+  .SignUpHeader{
+    font-size:15px!important;
+  }
+  
+  .Registration{
+    padding-left:0!important;
+  }
+}
+
+
+@media (max-width:400px){
+  .contactdesc{
+    padding-left:7%;
+  }
+  .nomargin{
+    padding-left:7%
+  }
 }
 .parallax{
   background:url('/images/video.mp4');
@@ -644,14 +687,39 @@ hr{
   text-align:center;
 
 }
+@media(max-width:1000px){
+  .signupvideo{
+    padding-top:1000px!important;
+  }}
 
+@media(max-width:450px){
+  .Contact{
+    padding-top:10%!important;
+    padding-bottom:10%!important;
+  }
+  .signupvid{
+    width:180%!important;
+  }
+
+  .startaTeam{
+   
+  }
+  .signupvideo{
+    padding-left:0!important;
+    padding-right:20px;
+    padding-top:0!important;
+  }
+}
 @media(max-width:768px){
   .cardsections{
     width:100%!important;
-    padding-left:25%!important;
+
   }
   .rookiemaintitle{
-    font-size:10!important;
+    font-size:3rem!important;
+  }
+  .wow{
+    font-size:2rem!important;
   }
 
 }
@@ -674,7 +742,9 @@ hr{
 }
 @media (max-width:900px){
  .signupvideo{
-   padding-left:50px!important;
+   padding-left:7%!important;
+   
+
 
   }
   .edivideo{
@@ -687,6 +757,7 @@ hr{
 
 .signupvideo{
   padding-top:0%;
+  padding-right:12%;
 }
 ul li{
 
@@ -723,7 +794,7 @@ ul li{
   font-family:'Montserrat', sans-serif;
   font-weight:700!important;
   padding-top:30px;
-  font-size:2.5rem!important;
+  font-size:2.5rem;
   
 }
 
@@ -1453,7 +1524,16 @@ color:white;
         margin-top:0;
         font-size:30px;
     }
-
+    @media (max-width:420px){
+      .ProjectBin{
+        padding-top:50px;
+     
+    }
+    
+    .arrowdown{
+      display:none;
+    }
+  }
     .hubtext p{
         font-size:20px;
         font-weight:500;
@@ -1897,7 +1977,7 @@ color:white;
 }
 
 .SignUpTitle{
-  
+
   width:20%;
   height:15vw!important;
   color:white;
@@ -1970,9 +2050,8 @@ margin:0!important;
   margin-bottom:0;
 }
 .SignUpHeaders{
-  font-size:1.5rem;
-  padding-top:70px;
-
+  font-size:120%;
+  overflow:hidden!important;
 }
 /* div{}
   background-color:black!important;
@@ -2055,7 +2134,7 @@ margin:0!important;
   display:flex;
   justify-content:left;
   background-color:blue;
-  height:10px;
+  height:3px;
 }
 .abouthrs{
 

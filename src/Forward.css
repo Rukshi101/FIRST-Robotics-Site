@@ -364,7 +364,7 @@ padding-bottom:22
 
 }
 .allieshr{
-  margin-top:180px;
+  margin-top:10%;
 }
 .AlliesTitle {
   font-size: 40px;
@@ -886,6 +886,7 @@ hr {
 
 .signupvideo{
   padding-right:150px;
+  padding-top:100px;
 }
 .imageSide{
   padding-top:5%;
@@ -1505,7 +1506,7 @@ ONLINE HUBS .OnlineHubs {
 }
 
 .hubtext {
-  width: 200px;
+  width: 100%;
   padding-right: 30px;
   margin-top: 40px;
   color: rgb(61, 57, 51);

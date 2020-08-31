@@ -6,7 +6,11 @@ import Footer2 from './Footer copy'
 import '../App.css';
 
 import RegistrationTitle from './RegistrationTitle'
+import Navs from './NavBar/Navbar';
 import BlackNavbar from './BlackNavbar';
+
+import SideDrawerRookies from '../components/sideDrawerRookies'
+import Backdrop from './Backdrop/Backdrop.js';
 const fetchedRegistrationTitle = [
     {
       id:1,name:"Contact Us"
@@ -39,10 +43,19 @@ const fetchedRegistrationTitle = [
   ]
 class Resources extends Component{
 state = {
+  sideDrawerOpen:false,
     fetchedRegistrationContent,
     fetchedRegistrationTitle
 }
-   
+drawerToggleClickHandler = () =>{
+  this.setState((prevState)=>{
+    return {sideDrawerOpen: !prevState.sideDrawerOpen};
+  });
+};
+
+backdropClickHandler = () =>{
+  this.setState({sideDrawerOpen:false})
+};
 
     async componentDidMount(){
 
@@ -66,9 +79,21 @@ state = {
         console.log('Was Clicked');
     }
     render(){
+      
+      let backdrop;
+
+
+      if (this.state.sideDrawerOpen){
+       
+        backdrop = <Backdrop click ={this.backdropClickHandler}/>;
+      }
+     
     return(
       <div className = "resourceBackground">
-      <BlackNavbar/>
+   <BlackNavbar drawerClickHandler= {this.drawerToggleClickHandler} />
+      <SideDrawerRookies show = {this.state.sideDrawerOpen}/>
+        {backdrop} 
+   
     <div className="SignUp">
      <hr className = "registrationhr" color = 'green' width = '310px'></hr>
         <h1 className = "RegistrationTitle">Register</h1>
@@ -78,7 +103,7 @@ state = {
 </p>
 
 <p className = "registerInfo">Here are 4 steps that needs to be completed:</p>
-        <div>
+        <div className = "registercards">
         <p>
         <RegistrationTitle
              titles = {this.state.fetchedRegistrationTitle}

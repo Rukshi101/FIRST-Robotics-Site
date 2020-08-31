@@ -13,12 +13,12 @@ const SideDrawerRookies = props =>{
     <nav className = {drawerClasses}>
         <ul className = "sideDrawerList">
         <li><img class = "nav_Logo sideDrawerLogo" src = {require("../images/ReverseLogo.png")} alt=""/></li>
-            <li><FontAwesomeIcon className = "sidedrawerIcon" size= "2x" icon = "home" /><a href = "/">About FRC</a></li>
-            <li><FontAwesomeIcon className = "sidedrawerIcon" size= "2x" icon = "robot" /><a href = "https://www.google.com/search?q=about+first+robotics+canad&rlz=1C1GCEB_enCA856CA856&oq=about+first+robotics+canad&aqs=chrome..69i57l2j69i60l6.2636j0j7&sourceid=chrome&ie=UTF-8">Start a Team</a></li>
-            <li><FontAwesomeIcon className = "sidedrawerIcon" size= "2x" icon = "project-diagram" /><a href = "#projects">Register</a></li>
-            <li><FontAwesomeIcon className = "sidedrawerIcon" size= "2x" icon = "phone-square" /><a href = "#contact">Resources</a></li>
-            <li><FontAwesomeIcon className = "sidedrawerIcon" size= "2x" icon = "home" /><a href = "https://www.firstroboticscanada.org/">Contact Us</a></li>
-            <li><FontAwesomeIcon className = "sidedrawerIcon" size= "2x" icon = "user-plus" /><Link className = "Nav_Link" to = "rookies">Rookie Portal</Link></li>
+            <li><FontAwesomeIcon className = "sidedrawerIcon" size= "2x" icon = "home" /><a href = "/">Home</a></li>
+            <li><FontAwesomeIcon className = "sidedrawerIcon" size= "2x" icon = "robot" /><a href = "firstroboticscanada.org">About Us</a></li>
+            <li><FontAwesomeIcon className = "sidedrawerIcon" size= "2x" icon = "project-diagram" /><Link className = "Nav_Link" to = "signup">Start a Team</Link></li>
+            <li><FontAwesomeIcon className = "sidedrawerIcon" size= "2x" icon = "phone-square" /><Link className = "Nav_Link" to = "register">Register</Link></li>
+            <li><FontAwesomeIcon className = "sidedrawerIcon" size= "2x" icon = "home" /><Link className = "Nav_Link" to = "resources">Resources</Link></li>
+            <li><FontAwesomeIcon className = "sidedrawerIcon" size= "2x" icon = "user-plus" /><Link className = "Nav_Link" to = "contactus">Contact Us</Link></li>
         </ul>
     </nav>
     )

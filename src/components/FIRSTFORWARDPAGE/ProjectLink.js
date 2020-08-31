@@ -16,7 +16,7 @@ class ProjectLink extends React.Component{
                   <div>
                 <div className = "Impactcontainer projectcontainer firstprojrow">
         
-                <div className = "ProjectBin">
+                <div className = "ProjectBin firstproject">
                 <img className = "projectimage" src = {require("./CanCode.jpg")} alt=""/>
                 <div className = "overlay">
                     <div className = "text"><Link className = "Nav_Link" to = "CanCode">CanCode</Link></div>
