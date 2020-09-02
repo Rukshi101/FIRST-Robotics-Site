@@ -83,39 +83,47 @@ const fetchedSignUpTitle = [
               <div className = "flex-container">
              <div className = 'videosignup '>
              <hr className = "registrationhr startaTeam" color = 'green' width = '400px'></hr>
-        <h1 className = "RegistrationTitle startaTeam">CanCode</h1>
+        <h1 className = "RegistrationTitle startaTeam">Library Programs</h1>
              <p className = "signuptext">
-             FIRST Robotics Canada is on a mission! We are on a mission to educate even more kids and youth about coding
-and programming. Thanks to CanCode funding, FIRST is embarking on some exciting new initiatives to get
-students engaged in coding.
+             Library Program
+Every year more libraries across Ontario are introducing Robotics into their repertoire of activities for children in the
+community. The research components of the challenge is a natural for libraries and LEGO is a big draw. Parents
+love the fact that it combines learning and fun as participants gain a variety of skills ranging from teamwork to
+programming. Curriculum resources developed specifically in mind are also available.
 </p>
 <p  className = "signuptext">
-Check out our coding booth at FIRST Robotics Competition events and check out some of our partners we’re
-working with on some cool programs!
+Click on the links below to learn more about the library program and how to bring it to your library.
 </p>
 <p  className = "signuptext">
-Here are some of our incredible CanCode initiatives:
+  <ul className = "libraryprograms">
+    <li>
+      <a href = "">Guide to Robotics in the Library</a>
+    </li>
+    <li>
+      <a href = "">Free Workshop Training Sessions</a>
+    </li>
+    <li>
+      <a href = "">Volunteer Code of Conduct</a>
+    </li>
+    <li>
+      <a href = "">Participant Code of Conduct</a>
+    </li>
+    <li>
+      <a href = "">Media Consent Form</a>
+    </li>
+  </ul>
 </p>
 <p className = "signuptext">
-FRC Java Tutorials
+Here's what past members had to say:
 </p>
 <p className = "signuptext">
-As part of the CanCode program, we’ve created a complete FIRST Robotics Competition Java tutorial series to
-get you started for this years’ game. The tutorials will teach you the basics of programming starting from your
+<em>“My daughter…continues to discuss all the great things she learned…what the Milton library has offered here is
+beyond fantastic – in an area where you don’t often see girls…Thank you for all the hard work and kind attention
+the entire staff has put towards this program – Bravo!”</em>
 </p>
-<p className = "signuptext">
-PixelPad Fun with Java and Python
-</p>
-<p className = "signuptext">
-You can build FIRST Robotics POWER UP, Maker Labs and Castle Crashers games using the coding handbook
-and pre-made game guide. Click here to find out more.     
-</p>
-<p className = "signuptext">
-Check out our event calendar to view more information on upcoming events
-            
-</p></div>
+</div>
 <div className = "imageSide">
-<img className = "projectPageimage" src = {require("./CanCodePage.jpg")} alt=""/>
+<img className = "projectPageimage" src = {require("./forwardassets/CanCodePage.jpg")} alt=""/>
              </div>
            
             </div>

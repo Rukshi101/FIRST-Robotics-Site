@@ -120,7 +120,7 @@ To help you get started, follow these steps and once registered into the program
              <img className = "signupimageimage" src = {require("../images/realsignup.PNG")} alt=""/>
            
              </div>
-             <p className = "nextstep"><a href = "">Register</a></p>
+            
             </div>
            
             <Footer/>
@@ -129,3 +129,4 @@ To help you get started, follow these steps and once registered into the program
         }
   }
 export default SignUpPage
+

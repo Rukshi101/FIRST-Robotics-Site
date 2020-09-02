@@ -2,7 +2,7 @@ import React,{Component} from 'react'
 import '../App.css'
 import axios from 'axios';
 import SideBar from './SideBar'
-import Footer from './Footer'
+import Footer3 from './Footer3'
 import '../App.css';
 
 import Safety from './Safety'
@@ -88,7 +88,7 @@ state = {
     <div className = "extrapadding">
 
 </div>
-    <Footer/>
+    <Footer3/>
 </div>
 
     )

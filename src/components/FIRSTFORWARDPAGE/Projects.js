@@ -9,7 +9,7 @@ function Project(props){
 
       
        <div class="col-sm-6 projectimagebin">
-       <img className = "projectimage" src = {require("./ProjectsImage.jpg")} alt=""/>
+       <img className = "projectimage" src = {require("./forwardassets/ProjectsImage.jpg")} alt=""/>
        </div>
     
        <div class = "col-sm-6 ProjectText" id='title'>

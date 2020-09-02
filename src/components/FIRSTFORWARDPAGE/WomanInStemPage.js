@@ -85,38 +85,31 @@ const fetchedSignUpTitle = [
              <hr className = "registrationhr startaTeam" color = 'green' width = '400px'></hr>
         <h1 className = "RegistrationTitle startaTeam">Women In STEM</h1>
              <p className = "signuptext">
-             More hospitals are engaging are helping kids with disabilities engage with math and science in an very unique way
-using LEGO robotics kits to introduce engineering concepts to kids who might not get the chance otherwise:
-building their very own robots, then showcasing and presenting them for robot supremacy. The program opens
-new opportunities for kids to participate in a ground-breaking robotic experience. This program provides an
-opportunity to develop and re
 </p>
 <p  className = "signuptext">
-Below are some details required if you are interested in connecting with your local community hospitals.
+FIRST Robotics Canada recognizes the tremendous benefits of diversity, and since its inception in 2001 has encouraged equality and inclusion in all its programs. As such, girls
+and young women need support in the STEM.
 </p>
 <p  className = "signuptext">
-Here are some of our incredible CanCode initiatives:
+FIRST Robotics Canada is proud to collaborate with corporate executives, educational institutional leaders, and passionate individuals who all believe in success for, and
+inclusion and acceptance of, girls and young women in science, technology, engineering, and mathematics (STEM).
 </p>
 <p className = "signuptext">
-FRC Java Tutorials
+Girls in STEM Executive Advisory Council
 </p>
 <p className = "signuptext">
-As part of the CanCode program, we’ve created a complete FIRST Robotics Competition Java tutorial series to
-get you started for this years’ game. The tutorials will teach you the basics of programming starting from your
+This council offers insight and oversight that will help us break down the barriers of girls in STEM, encourage girls and young women to become innovative and successful
+leaders of the future, and build the foundation for systematic change for acceptance and inclusion of girls in STEM.
+Girls in FIRST Weekend
+Scholarships
 </p>
-<p className = "signuptext">
-PixelPad Fun with Java and Python
-</p>
-<p className = "signuptext">
-You can build FIRST Robotics POWER UP, Maker Labs and Castle Crashers games using the coding handbook
-and pre-made game guide. Click here to find out more.     
-</p>
-<p className = "signuptext">
-Check out our event calendar to view more information on upcoming events
-            
-</p></div>
+
+<p className = "signuptext" >
+FIRST Robotics Canada and the Murai family are proud to announce the “Canadian Women in STEM Award” scholarship of $10,000 to encourage and support high school girls
+who wish to pursue post-secondary education and a career in a STEM. The ideal candidate would be someone who has demonstrated strong leadership, is fanatical about science and technology and wants to motivate
+positive change in the community. Find out more about it <a href="https://www.firstroboticscanada.org/scholarships/women-in-stem-scholarship">here</a>.</p> </div>
 <div className = "imageSide">
-<img className = "projectPageimage" src = {require("./CanCodePage.jpg")} alt=""/>
+<img className = "projectPageimage" src = {require("./forwardassets/womaninstemimage.jpg")} alt=""/>
              </div>
            
             </div>

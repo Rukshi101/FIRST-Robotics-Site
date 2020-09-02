@@ -16,7 +16,7 @@ const SideBar = (props)=>(
           id="sb4"
           data-shift=".shifted-content"
           data-static-shift = ".shifted-content-2"
-          data-static = "md"
+          data-static = "xs"
         >
        
        <ul className="sidebar-menu">
@@ -36,7 +36,7 @@ const SideBar = (props)=>(
            <li><Link className = "Nav_Link" to = "InEvent"><span className="mif-enter icon"></span>In-Event</Link></li>
        
            <li className="divider"></li>
-           <li><Link className = "Nav_Link" to = "SignUp"><span className="mif-widgets icon"></span>Miscellaneous</Link></li>
+           <li><a href = "https://forward.firstroboticscanada.org/rookies"><span className="mif-widgets icon"></span>Go back Home</a></li>
        </ul>
    </aside>
    <div className="shifted-content-2 h-100 p-ab sidenav ">

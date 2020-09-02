@@ -88,9 +88,7 @@ const fetchedSignUpTitle = [
         </div>
      
             </div>
-            <div className = "extraspace">
-              
-            </div>
+          
             <Footer/>
             </div>
         )

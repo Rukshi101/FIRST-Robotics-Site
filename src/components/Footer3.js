@@ -6,12 +6,12 @@ import {Link} from 'react-router-dom'
 function Footer3(props){
     return(
 
-<div class = "shifted-content-2 footer footerleft">
+<div class = "shifted-content-2 footer entirefooter footerleft">
     <div class = "inner-footer">
         <div class = 'footer-items'>
             <img class = "logo" src = {require("../images/ReverseLogo.png")} alt=""/>
             <p>
-                For Indsfdsspiratioasdn and Recognition of Science and Technology
+                For Inspiration and Recognition of Science and Technology
             </p>
             <div class = "social-media">
             <a href = "https://www.youtube.com/user/FIRSTRoboticsCanada"><FontAwesomeIcon color = 'red' icon = {['fab', 'youtube']}/></a>

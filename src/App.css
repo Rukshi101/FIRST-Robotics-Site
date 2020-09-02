@@ -186,7 +186,6 @@ html{
   z-index:22!important;
 
 }
-
 .extraspace{
   height:14vh!important;
   background-color:#141413!important;
@@ -234,7 +233,34 @@ html{
     font-size:1.8rem!important;
   }
 
+ 
+  
 }
+ @media (max-width:500px){
+    .resourcespage{
+      display:none;
+    }
+    .entirefooter{
+      display:none!important;
+    }
+    .sidebar{
+      width:100vw;
+    }
+   
+  }
+
+  .ourcommit{
+    width:100vw;
+  }
+
+  .libraryprograms{
+    list-style-type: square!important;
+  
+  }
+
+  .listitems{
+    margin-bottom:40px!important;
+  }
 @media (max-width:600px){
   .SignUpTitle{
     width:90%!important;

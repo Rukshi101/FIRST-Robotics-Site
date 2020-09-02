@@ -97,7 +97,7 @@ working with on some cool programs!
 Here are some of our incredible CanCode initiatives:
 </p>
 <p className = "signuptext">
-FRC Java Tutorials
+<a href = "https://www.firstroboticscanada.org/cancode/frc/">FRC Java Tutorials</a>
 </p>
 <p className = "signuptext">
 As part of the CanCode program, we’ve created a complete FIRST Robotics Competition Java tutorial series to
@@ -111,11 +111,11 @@ You can build FIRST Robotics POWER UP, Maker Labs and Castle Crashers games usin
 and pre-made game guide. Click here to find out more.     
 </p>
 <p className = "signuptext">
-Check out our event calendar to view more information on upcoming events
+Check out our <a href = "https://www.firstroboticscanada.org/events/list/">event calendar</a> to view more information on upcoming events
             
 </p></div>
 <div className = "imageSide">
-<img className = "projectPageimage" src = {require("./CanCodePage.jpg")} alt=""/>
+<img className = "projectPageimage" src = {require("./forwardassets/CanCodePage.jpg")} alt=""/>
              </div>
            
             </div>

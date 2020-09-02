@@ -29,7 +29,7 @@ We must enable our youth to grow up to solve the world’s most pressing problem
 
        
        <div class="col-sm-5 teamBins">
-         <img className = "aboutimage" src = {require("./aboutimage.jpeg")} alt=""/>
+         <img className = "aboutimage" src = {require("./forwardassets/aboutimage.jpeg")} alt=""/>
        </div>
        </div>
     </div>

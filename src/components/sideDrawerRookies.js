@@ -18,7 +18,7 @@ const SideDrawerRookies = props =>{
             <li><FontAwesomeIcon className = "sidedrawerIcon" size= "2x" icon = "project-diagram" /><Link className = "Nav_Link" to = "signup">Start a Team</Link></li>
             <li><FontAwesomeIcon className = "sidedrawerIcon" size= "2x" icon = "phone-square" /><Link className = "Nav_Link" to = "register">Register</Link></li>
             <li><FontAwesomeIcon className = "sidedrawerIcon" size= "2x" icon = "home" /><Link className = "Nav_Link" to = "resources">Resources</Link></li>
-            <li><FontAwesomeIcon className = "sidedrawerIcon" size= "2x" icon = "user-plus" /><Link className = "Nav_Link" to = "contactus">Contact Us</Link></li>
+            <li><FontAwesomeIcon className = "sidedrawerIcon" size= "2x" icon = "user-plus" /><Link className = "Nav_Link" to = "contact">Contact Us</Link></li>
         </ul>
     </nav>
     )

@@ -18,7 +18,7 @@ function Allies(props){
      
        </div>
        <div class="col-sm-6 allieimagebin ">
-         <img className = "alliesimage" src = {require("./Allies.jpg")} alt=""/>
+         <img className = "alliesimage" src = {require("./forwardassets/Allies.jpg")} alt=""/>
        </div>
        </div>
     </div>

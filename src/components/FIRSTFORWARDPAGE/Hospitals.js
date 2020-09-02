@@ -83,39 +83,63 @@ const fetchedSignUpTitle = [
               <div className = "flex-container">
              <div className = 'videosignup '>
              <hr className = "registrationhr startaTeam" color = 'green' width = '400px'></hr>
-        <h1 className = "RegistrationTitle startaTeam">CanCode</h1>
+        <h1 className = "RegistrationTitle startaTeam">Hospitals</h1>
              <p className = "signuptext">
-             FIRST Robotics Canada is on a mission! We are on a mission to educate even more kids and youth about coding
-and programming. Thanks to CanCode funding, FIRST is embarking on some exciting new initiatives to get
-students engaged in coding.
+             More hospitals are engaging are helping kids with disabilities engage with math and science in an very unique way
+using LEGO robotics kits to introduce engineering concepts to kids who might not get the chance otherwise:
+building their very own robots, then showcasing and presenting them for robot supremacy. The program opens
+new opportunities for kids to participate in a ground-breaking robotic experience. This program provides an
+opportunity to develop and refine decision-making and socialization skills, all while making friends.
 </p>
 <p  className = "signuptext">
-Check out our coding booth at FIRST Robotics Competition events and check out some of our partners we’re
-working with on some cool programs!
+Who is the program for?
 </p>
 <p  className = "signuptext">
-Here are some of our incredible CanCode initiatives:
+Kids with disabilities for children aged 6-14 years old
 </p>
 <p className = "signuptext">
-FRC Java Tutorials
+How long is the program
 </p>
 <p className = "signuptext">
-As part of the CanCode program, we’ve created a complete FIRST Robotics Competition Java tutorial series to
-get you started for this years’ game. The tutorials will teach you the basics of programming starting from your
+The program maybe up to 6 weeks long (once a week)
+Each session is 3 hours long with 1/2 hour prep time and 1/2 hour closing time. Actual training time: 2 hrs
 </p>
 <p className = "signuptext">
-PixelPad Fun with Java and Python
+Requirements:
 </p>
+<ul className = "libraryprograms">
+    <li className = "listitems">
+      Hospital Staff and specially-trained volunteers to make sure kids have all the support they need to be able to
+participate. Volunteers come from the hospital and FIRST Robotics Canada students and alumni.
+    </li>
+    <li className = "listitems">
+      Recommended: 2 volunteers (1 must be a hospital specially trained) to work with 2 kids. Please note that each
+session will need to supervised by a hospital staff.
+Build to Express Activity List, LEGO WeDo 2.0 Kit, iPADs
+    </li>
+    <li className = "listitems">
+      Build to Express Activity List, LEGO WeDo 2.0 Kit, iPADs
+    </li>
+
+  </ul>
 <p className = "signuptext">
-You can build FIRST Robotics POWER UP, Maker Labs and Castle Crashers games using the coding handbook
-and pre-made game guide. Click here to find out more.     
-</p>
-<p className = "signuptext">
-Check out our event calendar to view more information on upcoming events
-            
-</p></div>
+  Each Session Includes:
+  </p>
+  <ul className = "libraryprograms">
+    
+    <li>Ice-breaker activity</li>
+    <li>BuildToExpress Activity</li>
+    <li>Robot Build that has 3 parts: (recommended to use the same theme across all sessions e.g. space, water, etc.)</li>
+    <li>Explore phase</li>
+    <li>Create phase</li>
+    <li>Share phase</li>
+    <li>Week 6 session could be a celebration session with icebreaker and possibly show and tell about their models,
+describe their learnings.   </li>
+</ul>
+
+</div>
 <div className = "imageSide">
-<img className = "projectPageimage" src = {require("./CanCodePage.jpg")} alt=""/>
+<img className = "projectPageimage" src = {require("./forwardassets/CanCodePage.jpg")} alt=""/>
              </div>
            
             </div>

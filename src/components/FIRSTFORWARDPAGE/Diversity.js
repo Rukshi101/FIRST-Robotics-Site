@@ -115,7 +115,7 @@ Check out our event calendar to view more information on upcoming events
             
 </p></div>
 <div className = "imageSide">
-<img className = "projectPageimage" src = {require("./CanCodePage.jpg")} alt=""/>
+<img className = "projectPageimage" src = {require("./forwardassets/CanCodePage.jpg")} alt=""/>
              </div>
            
             </div>
