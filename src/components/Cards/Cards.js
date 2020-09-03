@@ -9,7 +9,7 @@ class Cards extends Component {
     render (){
         return(
             <div className= "getStarteds" id= "getStarted">
-                <h1 className ="wow">JOIN THE LARGEST ROBOTICS COMPETITION IN CANADA</h1>
+                <h1 className ="wow">JOIN THE FIRST ROBOTICS COMPETITION IN CANADA</h1>
             <div className = "cardsection container-fluid d-flex justify-content-left">
            
                 <div className = "row">
